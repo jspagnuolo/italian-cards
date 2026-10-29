@@ -1,0 +1,1378 @@
+{
+ "id": "time-travel",
+ "title": "Time & travel",
+ "subtitle": "Clock, dates, directions, the station (Lesson 6)",
+ "order": 60,
+ "defaultDir": "en",
+ "decks": {
+  "ora": {
+   "name": "Che ore sono?",
+   "short": "clock",
+   "kind": "sent",
+   "color": "c1",
+   "ask": "Che ore sono? Say it in Italian"
+  },
+  "tem": {
+   "name": "Time words",
+   "short": "time",
+   "kind": "word",
+   "color": "c2",
+   "askEn": "Say it in Italian",
+   "askIt": "What does this mean?"
+  },
+  "cal": {
+   "name": "Days, months, 1st 2nd 3rd",
+   "short": "calendar",
+   "kind": "word",
+   "color": "c3",
+   "askEn": "Say it in Italian",
+   "askIt": "What does this mean?"
+  },
+  "qua": {
+   "name": "When? a / il / alle / nel",
+   "short": "when",
+   "kind": "sent",
+   "color": "c4",
+   "ask": "Say it in Italian (watch the little word in front)"
+  },
+  "dir": {
+   "name": "Directions",
+   "short": "direction",
+   "kind": "word",
+   "color": "c1",
+   "askEn": "Say it in Italian",
+   "askIt": "What does this mean?"
+  },
+  "cit": {
+   "name": "Town & transport",
+   "short": "place",
+   "kind": "word",
+   "color": "c3",
+   "askEn": "Say it in Italian",
+   "askIt": "What does this mean?"
+  },
+  "sta": {
+   "name": "Station & asking the way",
+   "short": "phrase",
+   "kind": "sent",
+   "color": "cs",
+   "ask": "Say it in Italian (formal, with Lei)"
+  }
+ },
+ "cards": [
+  {
+   "id": "or-q",
+   "deck": "ora",
+   "q": "What time is it? (two ways)",
+   "a": "Che ore sono? / Che ora è?",
+   "note": "Both are fine. The answer is plural (Sono le…) except for one o'clock, noon and midnight."
+  },
+  {
+   "id": "or-1pm",
+   "deck": "ora",
+   "q": "1:00 PM",
+   "a": "È l'una.",
+   "g": "or: Sono le tredici.",
+   "note": "L'una is singular, so È, not Sono."
+  },
+  {
+   "id": "or-120am",
+   "deck": "ora",
+   "q": "1:20 AM",
+   "a": "È l'una e venti di notte."
+  },
+  {
+   "id": "or-210",
+   "deck": "ora",
+   "q": "2:10 PM",
+   "a": "Sono le due e dieci del pomeriggio.",
+   "g": "or: Sono le quattordici e dieci."
+  },
+  {
+   "id": "or-815",
+   "deck": "ora",
+   "q": "8:15 AM",
+   "a": "Sono le otto e un quarto di mattina.",
+   "g": "or: Sono le otto e quindici."
+  },
+  {
+   "id": "or-1030",
+   "deck": "ora",
+   "q": "10:30 AM",
+   "a": "Sono le dieci e mezzo.",
+   "g": "or: Sono le dieci e mezza / e trenta.",
+   "note": "E mezzo and e mezza are both used."
+  },
+  {
+   "id": "or-545",
+   "deck": "ora",
+   "q": "5:45 PM",
+   "a": "Sono le sei meno un quarto.",
+   "g": "or: Sono le diciassette e quarantacinque.",
+   "note": "Meno un quarto counts back from the NEXT hour: six minus a quarter."
+  },
+  {
+   "id": "or-340",
+   "deck": "ora",
+   "q": "3:40 PM",
+   "a": "Sono le quattro meno venti.",
+   "g": "or: Sono le quindici e quaranta."
+  },
+  {
+   "id": "or-705",
+   "deck": "ora",
+   "q": "7:05 PM",
+   "a": "Sono le sette e cinque di sera.",
+   "g": "or: Sono le diciannove e cinque."
+  },
+  {
+   "id": "or-1150",
+   "deck": "ora",
+   "q": "11:50 AM",
+   "a": "È mezzogiorno meno dieci.",
+   "g": "or: Sono le undici e cinquanta."
+  },
+  {
+   "id": "or-0030",
+   "deck": "ora",
+   "q": "12:30 AM",
+   "a": "È mezzanotte e mezzo."
+  },
+  {
+   "id": "or-655",
+   "deck": "ora",
+   "q": "6:55 AM",
+   "a": "Sono le sette meno cinque.",
+   "g": "or: Sono le sei e cinquantacinque."
+  },
+  {
+   "id": "or-2128",
+   "deck": "ora",
+   "q": "21:28 on the departure board",
+   "a": "le ventuno e ventotto",
+   "note": "Stations, tickets and timetables always use the 24-hour clock."
+  },
+  {
+   "id": "or-1612",
+   "deck": "ora",
+   "q": "16:12 on the departure board",
+   "a": "le sedici e dodici"
+  },
+  {
+   "id": "or-at",
+   "deck": "ora",
+   "q": "At what time? · At 4. · At 1.",
+   "a": "A che ora? · Alle quattro. · All'una.",
+   "note": "Alle (a + le) before times, all' (a + l') before una."
+  },
+  {
+   "id": "tm-sec",
+   "deck": "tem",
+   "it": "il secondo",
+   "en": "the second",
+   "note": "Plural: i secondi"
+  },
+  {
+   "id": "tm-min",
+   "deck": "tem",
+   "it": "il minuto",
+   "en": "the minute",
+   "note": "Plural: i minuti"
+  },
+  {
+   "id": "tm-ora",
+   "deck": "tem",
+   "it": "l'ora",
+   "en": "the hour",
+   "note": "Plural: le ore. Also means “now” (ora = adesso)."
+  },
+  {
+   "id": "tm-gio",
+   "deck": "tem",
+   "it": "il giorno",
+   "en": "the day"
+  },
+  {
+   "id": "tm-set",
+   "deck": "tem",
+   "it": "la settimana",
+   "en": "the week"
+  },
+  {
+   "id": "tm-fine",
+   "deck": "tem",
+   "it": "il fine settimana",
+   "en": "the weekend",
+   "note": "Plural doesn't change: i fine settimana. Also il weekend."
+  },
+  {
+   "id": "tm-mese",
+   "deck": "tem",
+   "it": "il mese",
+   "en": "the month",
+   "note": "Plural: i mesi"
+  },
+  {
+   "id": "tm-anno",
+   "deck": "tem",
+   "it": "l'anno",
+   "en": "the year",
+   "note": "Plural: gli anni"
+  },
+  {
+   "id": "tm-secolo",
+   "deck": "tem",
+   "it": "il secolo",
+   "en": "the century"
+  },
+  {
+   "id": "tm-mat",
+   "deck": "tem",
+   "it": "la mattina",
+   "en": "the morning",
+   "ex": "<b>di mattina</b> = in the morning"
+  },
+  {
+   "id": "tm-pom",
+   "deck": "tem",
+   "it": "il pomeriggio",
+   "en": "the afternoon",
+   "ex": "<b>del pomeriggio</b> / di pomeriggio = in the afternoon"
+  },
+  {
+   "id": "tm-sera",
+   "deck": "tem",
+   "it": "la sera",
+   "en": "the evening",
+   "ex": "<b>di sera</b> = in the evening"
+  },
+  {
+   "id": "tm-notte",
+   "deck": "tem",
+   "it": "la notte",
+   "en": "the night",
+   "ex": "<b>di notte</b> = at night"
+  },
+  {
+   "id": "tm-mezzog",
+   "deck": "tem",
+   "it": "mezzogiorno",
+   "en": "noon"
+  },
+  {
+   "id": "tm-mezzan",
+   "deck": "tem",
+   "it": "mezzanotte",
+   "en": "midnight"
+  },
+  {
+   "id": "tm-alba",
+   "deck": "tem",
+   "it": "l'alba",
+   "en": "dawn, sunrise"
+  },
+  {
+   "id": "tm-tram",
+   "deck": "tem",
+   "it": "il tramonto",
+   "en": "sunset"
+  },
+  {
+   "id": "tm-oggi",
+   "deck": "tem",
+   "it": "oggi",
+   "en": "today"
+  },
+  {
+   "id": "tm-domani",
+   "deck": "tem",
+   "it": "domani",
+   "en": "tomorrow"
+  },
+  {
+   "id": "tm-ieri",
+   "deck": "tem",
+   "it": "ieri",
+   "en": "yesterday"
+  },
+  {
+   "id": "tm-adesso",
+   "deck": "tem",
+   "it": "adesso / ora",
+   "en": "now"
+  },
+  {
+   "id": "tm-circa",
+   "deck": "tem",
+   "it": "circa",
+   "en": "around, about",
+   "ex": "Arrivo <b>verso</b> le otto = I arrive around eight",
+   "note": "With clock times, verso is more common: verso le otto."
+  },
+  {
+   "id": "tm-inpunto",
+   "deck": "tem",
+   "it": "in punto",
+   "en": "on the dot, precisely",
+   "ex": "alle tre <b>in punto</b>"
+  },
+  {
+   "id": "tm-intempo",
+   "deck": "tem",
+   "it": "in tempo",
+   "en": "in time (not too late)"
+  },
+  {
+   "id": "tm-inorario",
+   "deck": "tem",
+   "it": "in orario",
+   "en": "on schedule, on time",
+   "ex": "Il treno è <b>in orario</b>.",
+   "note": "The word you'll hear for trains."
+  },
+  {
+   "id": "tm-anticipo",
+   "deck": "tem",
+   "it": "in anticipo",
+   "en": "early (ahead of schedule)"
+  },
+  {
+   "id": "tm-ritardo",
+   "deck": "tem",
+   "it": "in ritardo",
+   "en": "late, delayed",
+   "ex": "Il treno è <b>in ritardo</b>."
+  },
+  {
+   "id": "tm-presto",
+   "deck": "tem",
+   "it": "presto",
+   "en": "early; soon",
+   "ex": "A <b>presto</b>! = See you soon!"
+  },
+  {
+   "id": "tm-tardi",
+   "deck": "tem",
+   "it": "più tardi",
+   "en": "later",
+   "ex": "A <b>più tardi</b>! = See you later!"
+  },
+  {
+   "id": "tm-prima",
+   "deck": "tem",
+   "it": "prima",
+   "en": "before; first"
+  },
+  {
+   "id": "tm-dopo",
+   "deck": "tem",
+   "it": "dopo",
+   "en": "after, afterwards"
+  },
+  {
+   "id": "cd-lun",
+   "deck": "cal",
+   "it": "lunedì",
+   "en": "Monday",
+   "note": "Lower case, like all days."
+  },
+  {
+   "id": "cd-mar",
+   "deck": "cal",
+   "it": "martedì",
+   "en": "Tuesday"
+  },
+  {
+   "id": "cd-mer",
+   "deck": "cal",
+   "it": "mercoledì",
+   "en": "Wednesday"
+  },
+  {
+   "id": "cd-gio",
+   "deck": "cal",
+   "it": "giovedì",
+   "en": "Thursday"
+  },
+  {
+   "id": "cd-ven",
+   "deck": "cal",
+   "it": "venerdì",
+   "en": "Friday"
+  },
+  {
+   "id": "cd-sab",
+   "deck": "cal",
+   "it": "sabato",
+   "en": "Saturday"
+  },
+  {
+   "id": "cd-dom",
+   "deck": "cal",
+   "it": "domenica",
+   "en": "Sunday",
+   "note": "Only la domenica is feminine; the rest are il."
+  },
+  {
+   "id": "cm-gen",
+   "deck": "cal",
+   "it": "gennaio",
+   "en": "January",
+   "note": "Lower case, like all months."
+  },
+  {
+   "id": "cm-feb",
+   "deck": "cal",
+   "it": "febbraio",
+   "en": "February"
+  },
+  {
+   "id": "cm-mar",
+   "deck": "cal",
+   "it": "marzo",
+   "en": "March"
+  },
+  {
+   "id": "cm-apr",
+   "deck": "cal",
+   "it": "aprile",
+   "en": "April"
+  },
+  {
+   "id": "cm-mag",
+   "deck": "cal",
+   "it": "maggio",
+   "en": "May"
+  },
+  {
+   "id": "cm-giu",
+   "deck": "cal",
+   "it": "giugno",
+   "en": "June"
+  },
+  {
+   "id": "cm-lug",
+   "deck": "cal",
+   "it": "luglio",
+   "en": "July"
+  },
+  {
+   "id": "cm-ago",
+   "deck": "cal",
+   "it": "agosto",
+   "en": "August"
+  },
+  {
+   "id": "cm-set",
+   "deck": "cal",
+   "it": "settembre",
+   "en": "September"
+  },
+  {
+   "id": "cm-ott",
+   "deck": "cal",
+   "it": "ottobre",
+   "en": "October"
+  },
+  {
+   "id": "cm-nov",
+   "deck": "cal",
+   "it": "novembre",
+   "en": "November"
+  },
+  {
+   "id": "cm-dic",
+   "deck": "cal",
+   "it": "dicembre",
+   "en": "December"
+  },
+  {
+   "id": "co-primo",
+   "deck": "cal",
+   "it": "primo",
+   "en": "1st",
+   "note": "Agrees like an adjective: la prima volta, il primo piano."
+  },
+  {
+   "id": "co-secondo",
+   "deck": "cal",
+   "it": "secondo",
+   "en": "2nd"
+  },
+  {
+   "id": "co-terzo",
+   "deck": "cal",
+   "it": "terzo",
+   "en": "3rd"
+  },
+  {
+   "id": "co-quarto",
+   "deck": "cal",
+   "it": "quarto",
+   "en": "4th"
+  },
+  {
+   "id": "co-quinto",
+   "deck": "cal",
+   "it": "quinto",
+   "en": "5th"
+  },
+  {
+   "id": "co-sesto",
+   "deck": "cal",
+   "it": "sesto",
+   "en": "6th"
+  },
+  {
+   "id": "co-settimo",
+   "deck": "cal",
+   "it": "settimo",
+   "en": "7th"
+  },
+  {
+   "id": "co-ottavo",
+   "deck": "cal",
+   "it": "ottavo",
+   "en": "8th"
+  },
+  {
+   "id": "co-nono",
+   "deck": "cal",
+   "it": "nono",
+   "en": "9th"
+  },
+  {
+   "id": "co-decimo",
+   "deck": "cal",
+   "it": "decimo",
+   "en": "10th"
+  },
+  {
+   "id": "co-undicesimo",
+   "deck": "cal",
+   "it": "undicesimo",
+   "en": "11th",
+   "note": "From 11 up: drop the last vowel, add -esimo."
+  },
+  {
+   "id": "co-ventesimo",
+   "deck": "cal",
+   "it": "ventesimo",
+   "en": "20th"
+  },
+  {
+   "id": "co-ventunesimo",
+   "deck": "cal",
+   "it": "ventunesimo",
+   "en": "21st"
+  },
+  {
+   "id": "co-centesimo",
+   "deck": "cal",
+   "it": "centesimo",
+   "en": "100th"
+  },
+  {
+   "id": "qn-marzo",
+   "deck": "qua",
+   "q": "In March",
+   "a": "a marzo",
+   "note": "A before a month (in marzo is also heard)."
+  },
+  {
+   "id": "qn-aprile",
+   "deck": "qua",
+   "q": "In April",
+   "a": "ad aprile",
+   "note": "A often becomes ad before a vowel: ad agosto, ad ottobre."
+  },
+  {
+   "id": "qn-oggi",
+   "deck": "qua",
+   "q": "Today is October 29th.",
+   "a": "Oggi è il ventinove ottobre.",
+   "note": "Il + number + month. No “th”, no capital letter."
+  },
+  {
+   "id": "qn-primo",
+   "deck": "qua",
+   "q": "on May 1st",
+   "a": "il primo maggio",
+   "note": "The 1st is the one date that uses an ordinal: il primo. After that, plain numbers: il due, il tre…"
+  },
+  {
+   "id": "qn-data",
+   "deck": "qua",
+   "q": "What's the date today?",
+   "a": "Quanti ne abbiamo oggi?",
+   "g": "or: Che giorno è oggi?",
+   "note": "Quanti ne abbiamo literally “how many (days) do we have”. Answer: Ne abbiamo ventinove."
+  },
+  {
+   "id": "qn-anno",
+   "deck": "qua",
+   "q": "in 2026",
+   "a": "nel duemilaventisei",
+   "note": "Nel before years and centuries."
+  },
+  {
+   "id": "qn-alle",
+   "deck": "qua",
+   "q": "at 8:30 in the evening",
+   "a": "alle otto e mezza di sera",
+   "g": "or: alle venti e trenta"
+  },
+  {
+   "id": "qn-allu",
+   "deck": "qua",
+   "q": "at one o'clock",
+   "a": "all'una"
+  },
+  {
+   "id": "qn-mezzog",
+   "deck": "qua",
+   "q": "at noon",
+   "a": "a mezzogiorno",
+   "note": "No article with mezzogiorno and mezzanotte."
+  },
+  {
+   "id": "qn-natale",
+   "deck": "qua",
+   "q": "at Christmas · at Easter",
+   "a": "a Natale · a Pasqua",
+   "note": "A before holidays."
+  },
+  {
+   "id": "qn-ilsab",
+   "deck": "qua",
+   "q": "Every Saturday I go to the market.",
+   "a": "Il sabato vado al mercato.",
+   "note": "Article + day = every week, a habit."
+  },
+  {
+   "id": "qn-lun",
+   "deck": "qua",
+   "q": "See you Monday! (this coming Monday)",
+   "a": "Ci vediamo lunedì!",
+   "note": "No article = one particular day."
+  },
+  {
+   "id": "qn-diven",
+   "deck": "qua",
+   "q": "On Fridays I work from home.",
+   "a": "Di venerdì lavoro da casa.",
+   "note": "Di + day also means a recurring day."
+  },
+  {
+   "id": "qn-piano",
+   "deck": "qua",
+   "q": "on the second floor",
+   "a": "al secondo piano",
+   "note": "Al before ordinals like floors."
+  },
+  {
+   "id": "qn-dal",
+   "deck": "qua",
+   "q": "from Monday to Friday",
+   "a": "dal lunedì al venerdì",
+   "note": "Da … a, combined with the article. Same pattern for times: dalle … alle."
+  },
+  {
+   "id": "qn-tra",
+   "deck": "qua",
+   "q": "in ten minutes (from now)",
+   "a": "tra dieci minuti",
+   "g": "or: fra dieci minuti",
+   "note": "Tra/fra = in, counting forward from now."
+  },
+  {
+   "id": "qn-fa",
+   "deck": "qua",
+   "q": "two days ago",
+   "a": "due giorni fa",
+   "note": "Fa comes after the time: un anno fa, un'ora fa."
+  },
+  {
+   "id": "qn-pross",
+   "deck": "qua",
+   "q": "next week",
+   "a": "la settimana prossima",
+   "g": "or: la prossima settimana"
+  },
+  {
+   "id": "dr-qui",
+   "deck": "dir",
+   "it": "qui / qua",
+   "en": "here"
+  },
+  {
+   "id": "dr-li",
+   "deck": "dir",
+   "it": "lì / là",
+   "en": "there",
+   "note": "Keep the accent: li without it means “them”."
+  },
+  {
+   "id": "dr-ci",
+   "deck": "dir",
+   "it": "ci",
+   "en": "there (that place, already mentioned)",
+   "ex": "Vai a Frascati? Sì, <b>ci</b> vado domani."
+  },
+  {
+   "id": "dr-vicino",
+   "deck": "dir",
+   "it": "vicino (a)",
+   "en": "near (to)",
+   "ex": "<b>vicino alla</b> stazione"
+  },
+  {
+   "id": "dr-lontano",
+   "deck": "dir",
+   "it": "lontano (da)",
+   "en": "far (from)",
+   "ex": "<b>lontano dal</b> centro"
+  },
+  {
+   "id": "dr-destra",
+   "deck": "dir",
+   "it": "a destra",
+   "en": "on the right, to the right"
+  },
+  {
+   "id": "dr-sinistra",
+   "deck": "dir",
+   "it": "a sinistra",
+   "en": "on the left, to the left"
+  },
+  {
+   "id": "dr-dritto",
+   "deck": "dir",
+   "it": "dritto",
+   "en": "straight ahead",
+   "note": "Also spelled diritto."
+  },
+  {
+   "id": "dr-fronte",
+   "deck": "dir",
+   "it": "di fronte a",
+   "en": "in front of, opposite",
+   "ex": "<b>di fronte alla</b> chiesa"
+  },
+  {
+   "id": "dr-dietro",
+   "deck": "dir",
+   "it": "dietro a",
+   "en": "behind",
+   "ex": "<b>dietro al</b> bar"
+  },
+  {
+   "id": "dr-accanto",
+   "deck": "dir",
+   "it": "accanto a",
+   "en": "next to",
+   "ex": "<b>accanto alla</b> farmacia"
+  },
+  {
+   "id": "dr-mezzo",
+   "deck": "dir",
+   "it": "in mezzo a",
+   "en": "in the middle of",
+   "ex": "<b>in mezzo alla</b> piazza"
+  },
+  {
+   "id": "dr-tra",
+   "deck": "dir",
+   "it": "tra / fra",
+   "en": "between, among"
+  },
+  {
+   "id": "dr-altra",
+   "deck": "dir",
+   "it": "dall'altra parte (di)",
+   "en": "across, on the other side (of)",
+   "ex": "<b>dall'altra parte della</b> strada"
+  },
+  {
+   "id": "dr-dentro",
+   "deck": "dir",
+   "it": "dentro",
+   "en": "inside"
+  },
+  {
+   "id": "dr-fuori",
+   "deck": "dir",
+   "it": "fuori",
+   "en": "outside"
+  },
+  {
+   "id": "dr-sopra",
+   "deck": "dir",
+   "it": "sopra",
+   "en": "above, over, on top"
+  },
+  {
+   "id": "dr-sotto",
+   "deck": "dir",
+   "it": "sotto",
+   "en": "below, under"
+  },
+  {
+   "id": "dr-su",
+   "deck": "dir",
+   "it": "su · giù",
+   "en": "up · down"
+  },
+  {
+   "id": "dr-avanti",
+   "deck": "dir",
+   "it": "avanti · indietro",
+   "en": "forward · back"
+  },
+  {
+   "id": "dr-nord",
+   "deck": "dir",
+   "it": "a nord · a sud",
+   "en": "to the north · to the south"
+  },
+  {
+   "id": "dr-est",
+   "deck": "dir",
+   "it": "a est · a ovest",
+   "en": "to the east · to the west"
+  },
+  {
+   "id": "dr-girare",
+   "deck": "dir",
+   "it": "girare",
+   "en": "to turn",
+   "ex": "<b>Giri</b> a destra. (formal)",
+   "note": "Regular -are. Ask a stranger with Lei: giri, not gira."
+  },
+  {
+   "id": "dr-attr",
+   "deck": "dir",
+   "it": "attraversare",
+   "en": "to cross",
+   "ex": "<b>Attraversi</b> la piazza. (formal)"
+  },
+  {
+   "id": "dr-cont",
+   "deck": "dir",
+   "it": "continuare",
+   "en": "to continue, keep going"
+  },
+  {
+   "id": "dr-cam",
+   "deck": "dir",
+   "it": "camminare",
+   "en": "to walk"
+  },
+  {
+   "id": "dr-piedi",
+   "deck": "dir",
+   "it": "a piedi",
+   "en": "on foot",
+   "ex": "Vado <b>a piedi</b>."
+  },
+  {
+   "id": "dr-guid",
+   "deck": "dir",
+   "it": "guidare",
+   "en": "to drive"
+  },
+  {
+   "id": "dr-parch",
+   "deck": "dir",
+   "it": "parcheggiare",
+   "en": "to park"
+  },
+  {
+   "id": "dr-arr",
+   "deck": "dir",
+   "it": "arrivare (a / in)",
+   "en": "to get to, arrive",
+   "ex": "Come <b>arrivo in</b> piazza?"
+  },
+  {
+   "id": "dr-salire",
+   "deck": "dir",
+   "it": "salire (su)",
+   "en": "to get on, to go up",
+   "note": "Irregular from Lesson 2: salgo, sali, sale, saliamo, salite, salgono."
+  },
+  {
+   "id": "dr-scendere",
+   "deck": "dir",
+   "it": "scendere (da)",
+   "en": "to get off, to go down",
+   "ex": "<b>Scendo</b> alla prossima fermata."
+  },
+  {
+   "id": "dr-fermare",
+   "deck": "dir",
+   "it": "fermare / fermarsi",
+   "en": "to stop",
+   "ex": "Questo treno <b>ferma</b> a Marino?"
+  },
+  {
+   "id": "ct-strada",
+   "deck": "cit",
+   "it": "la strada",
+   "en": "the street, road",
+   "note": "Plural: le strade"
+  },
+  {
+   "id": "ct-via",
+   "deck": "cit",
+   "it": "la via",
+   "en": "the street (in addresses)",
+   "ex": "<b>Via</b> Roma, 12"
+  },
+  {
+   "id": "ct-viale",
+   "deck": "cit",
+   "it": "il viale",
+   "en": "the boulevard, avenue"
+  },
+  {
+   "id": "ct-vicolo",
+   "deck": "cit",
+   "it": "il vicolo",
+   "en": "the alley"
+  },
+  {
+   "id": "ct-traversa",
+   "deck": "cit",
+   "it": "la traversa",
+   "en": "the cross street",
+   "ex": "la seconda <b>traversa</b> a destra"
+  },
+  {
+   "id": "ct-isolato",
+   "deck": "cit",
+   "it": "l'isolato",
+   "en": "the block",
+   "note": "Plural: gli isolati"
+  },
+  {
+   "id": "ct-incrocio",
+   "deck": "cit",
+   "it": "l'incrocio",
+   "en": "the intersection"
+  },
+  {
+   "id": "ct-semaforo",
+   "deck": "cit",
+   "it": "il semaforo",
+   "en": "the traffic light"
+  },
+  {
+   "id": "ct-rotonda",
+   "deck": "cit",
+   "it": "la rotonda",
+   "en": "the roundabout"
+  },
+  {
+   "id": "ct-strisce",
+   "deck": "cit",
+   "it": "le strisce pedonali",
+   "en": "the crosswalk"
+  },
+  {
+   "id": "ct-marc",
+   "deck": "cit",
+   "it": "il marciapiede",
+   "en": "the sidewalk"
+  },
+  {
+   "id": "ct-piazza",
+   "deck": "cit",
+   "it": "la piazza",
+   "en": "the square"
+  },
+  {
+   "id": "ct-centro",
+   "deck": "cit",
+   "it": "il centro",
+   "en": "downtown, the center",
+   "ex": "Vado <b>in centro</b>."
+  },
+  {
+   "id": "ct-ponte",
+   "deck": "cit",
+   "it": "il ponte",
+   "en": "the bridge",
+   "note": "Plural: i ponti"
+  },
+  {
+   "id": "ct-torre",
+   "deck": "cit",
+   "it": "la torre",
+   "en": "the tower"
+  },
+  {
+   "id": "ct-bancomat",
+   "deck": "cit",
+   "it": "il bancomat",
+   "en": "the ATM"
+  },
+  {
+   "id": "ct-entrata",
+   "deck": "cit",
+   "it": "l'entrata · l'uscita",
+   "en": "the entrance · the exit"
+  },
+  {
+   "id": "ct-parch",
+   "deck": "cit",
+   "it": "il parcheggio",
+   "en": "the parking lot"
+  },
+  {
+   "id": "ct-autostrada",
+   "deck": "cit",
+   "it": "l'autostrada",
+   "en": "the highway"
+  },
+  {
+   "id": "ct-campagna",
+   "deck": "cit",
+   "it": "la campagna",
+   "en": "the countryside",
+   "note": "The handout prints “compagna”, which means a (female) companion."
+  },
+  {
+   "id": "ct-borgo",
+   "deck": "cit",
+   "it": "il borgo",
+   "en": "the (old) village"
+  },
+  {
+   "id": "ct-vigne",
+   "deck": "cit",
+   "it": "le vigne",
+   "en": "the vineyards"
+  },
+  {
+   "id": "ct-cantina",
+   "deck": "cit",
+   "it": "la cantina",
+   "en": "the winery; the cellar"
+  },
+  {
+   "id": "ct-macchina",
+   "deck": "cit",
+   "it": "la macchina",
+   "en": "the car",
+   "ex": "<b>in macchina</b> = by car"
+  },
+  {
+   "id": "ct-treno",
+   "deck": "cit",
+   "it": "il treno",
+   "en": "the train",
+   "ex": "<b>in treno</b> = by train",
+   "note": "In + transport, no article: in treno, in autobus, in bici, in aereo."
+  },
+  {
+   "id": "ct-autobus",
+   "deck": "cit",
+   "it": "l'autobus",
+   "en": "the bus",
+   "note": "Plural doesn't change: gli autobus"
+  },
+  {
+   "id": "ct-metro",
+   "deck": "cit",
+   "it": "la metro",
+   "en": "the subway"
+  },
+  {
+   "id": "ct-navetta",
+   "deck": "cit",
+   "it": "la navetta",
+   "en": "the shuttle"
+  },
+  {
+   "id": "ct-aereo",
+   "deck": "cit",
+   "it": "l'aereo",
+   "en": "the plane"
+  },
+  {
+   "id": "ct-bici",
+   "deck": "cit",
+   "it": "la bicicletta",
+   "en": "the bicycle",
+   "note": "Short form: la bici"
+  },
+  {
+   "id": "ct-moto",
+   "deck": "cit",
+   "it": "la moto",
+   "en": "the motorcycle",
+   "note": "Feminine, short for la motocicletta."
+  },
+  {
+   "id": "ct-barca",
+   "deck": "cit",
+   "it": "la barca · il traghetto",
+   "en": "the boat · the ferry"
+  },
+  {
+   "id": "ct-staz",
+   "deck": "cit",
+   "it": "la stazione",
+   "en": "the station",
+   "ex": "<b>alla stazione</b> dei treni"
+  },
+  {
+   "id": "ct-bigl",
+   "deck": "cit",
+   "it": "il biglietto",
+   "en": "the ticket"
+  },
+  {
+   "id": "ct-bigliett",
+   "deck": "cit",
+   "it": "la biglietteria",
+   "en": "the ticket office"
+  },
+  {
+   "id": "ct-bigliettaio",
+   "deck": "cit",
+   "it": "il bigliettaio",
+   "en": "the ticket clerk"
+  },
+  {
+   "id": "ct-macch",
+   "deck": "cit",
+   "it": "la macchinetta",
+   "en": "the (ticket-stamping) machine",
+   "note": "Diminutive of macchina."
+  },
+  {
+   "id": "ct-timbrare",
+   "deck": "cit",
+   "it": "timbrare",
+   "en": "to stamp, validate (a ticket)"
+  },
+  {
+   "id": "ct-binario",
+   "deck": "cit",
+   "it": "il binario",
+   "en": "the track, platform",
+   "ex": "Il treno parte dal <b>binario</b> tre."
+  },
+  {
+   "id": "ct-tabellone",
+   "deck": "cit",
+   "it": "il tabellone",
+   "en": "the departures board"
+  },
+  {
+   "id": "ct-partenze",
+   "deck": "cit",
+   "it": "le partenze · gli arrivi",
+   "en": "departures · arrivals"
+  },
+  {
+   "id": "ct-orario",
+   "deck": "cit",
+   "it": "l'orario",
+   "en": "the timetable; the schedule"
+  },
+  {
+   "id": "ct-fermata",
+   "deck": "cit",
+   "it": "la fermata",
+   "en": "the stop (bus, tram, train)"
+  },
+  {
+   "id": "ct-andata",
+   "deck": "cit",
+   "it": "solo andata",
+   "en": "one way",
+   "note": "On tickets: sola andata."
+  },
+  {
+   "id": "ct-ar",
+   "deck": "cit",
+   "it": "andata e ritorno",
+   "en": "round trip"
+  },
+  {
+   "id": "ct-classe",
+   "deck": "cit",
+   "it": "la prima / la seconda classe",
+   "en": "first / second class"
+  },
+  {
+   "id": "ct-regionale",
+   "deck": "cit",
+   "it": "il treno regionale",
+   "en": "the regional (slow, local) train"
+  },
+  {
+   "id": "ct-freccia",
+   "deck": "cit",
+   "it": "il Frecciarossa",
+   "en": "the high-speed train",
+   "note": "Alta velocità = high speed."
+  },
+  {
+   "id": "ct-posto",
+   "deck": "cit",
+   "it": "il posto",
+   "en": "the seat; the place"
+  },
+  {
+   "id": "ct-chilo",
+   "deck": "cit",
+   "it": "il chilometro",
+   "en": "the kilometer",
+   "note": "1 km ≈ 0.6 miles; 1 mile (il miglio, plural le miglia) ≈ 1.6 km."
+  },
+  {
+   "id": "st-scusi",
+   "deck": "sta",
+   "q": "Excuse me, where is the ticket office?",
+   "a": "Scusi, dov'è la biglietteria?",
+   "note": "Scusi = formal “excuse me” (scusa with tu)."
+  },
+  {
+   "id": "st-ar",
+   "deck": "sta",
+   "q": "I'd like a round-trip ticket to Frascati.",
+   "a": "Vorrei un biglietto di andata e ritorno per Frascati.",
+   "note": "Per + destination town."
+  },
+  {
+   "id": "st-sola",
+   "deck": "sta",
+   "q": "A one-way ticket, second class, please.",
+   "a": "Un biglietto di sola andata, in seconda classe, per favore."
+  },
+  {
+   "id": "st-ultimo",
+   "deck": "sta",
+   "q": "What time does the last train leave?",
+   "a": "A che ora parte l'ultimo treno?"
+  },
+  {
+   "id": "st-arriva",
+   "deck": "sta",
+   "q": "What time does it arrive in Rome?",
+   "a": "A che ora arriva a Roma?",
+   "note": "A before a city: a Roma, a Firenze."
+  },
+  {
+   "id": "st-binario",
+   "deck": "sta",
+   "q": "Which track does the train for Velletri leave from?",
+   "a": "Da quale binario parte il treno per Velletri?"
+  },
+  {
+   "id": "st-orario",
+   "deck": "sta",
+   "q": "Is the train on time?",
+   "a": "Il treno è in orario?"
+  },
+  {
+   "id": "st-ritardo",
+   "deck": "sta",
+   "q": "The train is ten minutes late.",
+   "a": "Il treno è in ritardo di dieci minuti.",
+   "note": "In ritardo di + amount."
+  },
+  {
+   "id": "st-ferma",
+   "deck": "sta",
+   "q": "Does this train stop in Marino?",
+   "a": "Questo treno ferma a Marino?"
+  },
+  {
+   "id": "st-scendere",
+   "deck": "sta",
+   "q": "Where do I have to get off for Lake Albano?",
+   "a": "Dove devo scendere per il lago Albano?"
+  },
+  {
+   "id": "st-dura",
+   "deck": "sta",
+   "q": "How long is the trip?",
+   "a": "Quanto dura il viaggio?"
+  },
+  {
+   "id": "st-libero",
+   "deck": "sta",
+   "q": "Is this seat free?",
+   "a": "È libero questo posto?"
+  },
+  {
+   "id": "st-cambiare",
+   "deck": "sta",
+   "q": "Do I have to change trains?",
+   "a": "Devo cambiare treno?"
+  },
+  {
+   "id": "st-bancomat",
+   "deck": "sta",
+   "q": "Excuse me, is there an ATM near here?",
+   "a": "Scusi, c'è un bancomat qui vicino?"
+  },
+  {
+   "id": "st-come",
+   "deck": "sta",
+   "q": "How do I get to the piazza?",
+   "a": "Come arrivo in piazza?",
+   "g": "or: Per andare in piazza?"
+  },
+  {
+   "id": "st-lontano",
+   "deck": "sta",
+   "q": "Is it far from here?",
+   "a": "È lontano da qui?"
+  },
+  {
+   "id": "st-dritto",
+   "deck": "sta",
+   "q": "(Giving directions) Go straight and turn left at the traffic light.",
+   "a": "Vada dritto e giri a sinistra al semaforo.",
+   "note": "Formal commands: vada, giri, attraversi, prenda. The handout's “vai dritto” is the tu form."
+  },
+  {
+   "id": "st-prenda",
+   "deck": "sta",
+   "q": "Take the second street on the right.",
+   "a": "Prenda la seconda strada a destra."
+  },
+  {
+   "id": "st-isolati",
+   "deck": "sta",
+   "q": "It's two blocks from here, across from the church.",
+   "a": "È a due isolati da qui, di fronte alla chiesa."
+  },
+  {
+   "id": "st-piedi",
+   "deck": "sta",
+   "q": "Can I go on foot, or is it better by bus?",
+   "a": "Posso andare a piedi, o è meglio in autobus?"
+  }
+ ],
+ "refs": [
+  {
+   "title": "How to tell time",
+   "html": "<div class=\"tblwrap\"><table class=\"ref\">\n      <thead><tr><th>Pattern</th><th>Example</th></tr></thead>\n      <tbody>\n        <tr><td class=\"k\">È l'una</td><td>1:00. Singular, so È. Same for È mezzogiorno, È mezzanotte.</td></tr>\n        <tr><td class=\"k\">Sono le + hour</td><td>Sono le tre. Every other hour is plural.</td></tr>\n        <tr><td class=\"k\">… e + minutes</td><td>Sono le tre e dieci (3:10)</td></tr>\n        <tr><td class=\"k\">… e un quarto</td><td>Sono le tre e un quarto (3:15)</td></tr>\n        <tr><td class=\"k\">… e mezzo / mezza</td><td>Sono le tre e mezzo (3:30)</td></tr>\n        <tr><td class=\"k\">next hour meno …</td><td>Sono le quattro meno un quarto (3:45), meno dieci (3:50)</td></tr>\n        <tr><td class=\"k\">24-hour clock</td><td>Sono le quindici e quarantacinque (15:45). Used for trains, shops, appointments.</td></tr>\n        <tr><td class=\"k\">part of day</td><td>di mattina · del pomeriggio · di sera · di notte</td></tr>\n      </tbody>\n    </table></div>\n    <h3 class=\"refh\">Asking and answering</h3>\n    <p class=\"reftip\"><b>Che ore sono?</b> → Sono le… (what time is it now)<br><b>A che ora…?</b> → Alle… / All'una / A mezzogiorno (at what time does something happen)</p>"
+  },
+  {
+   "title": "Which little word with dates and times?",
+   "html": "<div class=\"tblwrap\"><table class=\"ref\">\n      <thead><tr><th>Use</th><th>Before</th><th>Example</th></tr></thead>\n      <tbody>\n        <tr><td class=\"k\">a / ad</td><td>months, holidays</td><td>a giugno · ad agosto · a Pasqua</td></tr>\n        <tr><td class=\"k\">il</td><td>a date</td><td>il quattro luglio · il primo maggio</td></tr>\n        <tr><td class=\"k\">alle / all'</td><td>clock times</td><td>alle nove · all'una</td></tr>\n        <tr><td class=\"k\">a</td><td>noon, midnight</td><td>a mezzogiorno · a mezzanotte</td></tr>\n        <tr><td class=\"k\">il / la + day</td><td>every week</td><td>il martedì · la domenica</td></tr>\n        <tr><td class=\"k\">di + day</td><td>recurring day</td><td>di giovedì</td></tr>\n        <tr><td class=\"k\">day alone</td><td>one specific day</td><td>Arrivo martedì.</td></tr>\n        <tr><td class=\"k\">nel</td><td>years, centuries, weekend</td><td>nel 2026 · nel Novecento</td></tr>\n        <tr><td class=\"k\">al</td><td>ordinals (floors…)</td><td>al terzo piano</td></tr>\n        <tr><td class=\"k\">dalle … alle</td><td>from … to (times)</td><td>dalle nove alle cinque</td></tr>\n        <tr><td class=\"k\">tra / fra</td><td>in (from now)</td><td>tra un'ora</td></tr>\n        <tr><td class=\"k\">… fa</td><td>ago</td><td>tre giorni fa</td></tr>\n      </tbody>\n    </table></div>"
+  },
+  {
+   "title": "Notes on the handouts",
+   "html": "<ul class=\"fixes\">\n      <li><b>Compagna</b> (Handout 4.2) should be <b>campagna</b>, countryside. Compagna means a female companion.</li>\n      <li>In the dialogue, <b>“Li trova tutti gli orari”</b> should be <b>Lì trova</b> (there you'll find). Li without the accent means “them”. Likewise <b>“Si, ed è gratis”</b> should be <b>Sì</b> (yes).</li>\n      <li>The handout's <b>Vai dritto</b> is the tu form. To a stranger, use Lei: <b>Vada dritto, giri a destra, attraversi la strada, prenda la prima a sinistra</b>.</li>\n      <li>The 1st of the month is <b>il primo</b> (il primo maggio). Every other date uses a plain number.</li>\n      <li>Real-life note: you stamp (timbrare) paper tickets for <b>regional</b> trains. Frecciarossa tickets have a reserved seat and don't need stamping.</li>\n    </ul>"
+  }
+ ]
+}

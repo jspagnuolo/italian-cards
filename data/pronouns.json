@@ -1,0 +1,734 @@
+{
+ "id": "pronouns",
+ "title": "Pronouns",
+ "subtitle": "Direct, indirect, possessive, this/that",
+ "order": 30,
+ "defaultDir": "en",
+ "decks": {
+  "dir": {
+   "name": "Direct",
+   "short": "direct",
+   "kind": "word",
+   "color": "c1",
+   "askEn": "Say the direct pronoun",
+   "askIt": "What does this direct pronoun mean?"
+  },
+  "ind": {
+   "name": "Indirect",
+   "short": "indirect",
+   "kind": "word",
+   "color": "c2",
+   "askEn": "Say the indirect pronoun",
+   "askIt": "What does this indirect pronoun mean?"
+  },
+  "poss": {
+   "name": "Possessive",
+   "short": "possessive",
+   "kind": "word",
+   "color": "c3",
+   "askEn": "Say it in Italian (article or not?)",
+   "askIt": "What does this mean?"
+  },
+  "dem": {
+   "name": "This / That",
+   "short": "this/that",
+   "kind": "word",
+   "color": "c4",
+   "askEn": "Say it in Italian",
+   "askIt": "What does this mean?"
+  },
+  "sent": {
+   "name": "Sentences",
+   "short": "sentence",
+   "kind": "sent",
+   "color": "cs",
+   "ask": "Replace the bold part with a pronoun"
+  }
+ },
+ "cards": [
+  {
+   "id": "d-mi",
+   "deck": "dir",
+   "it": "mi",
+   "en": "me",
+   "ex": "<b>Mi</b> conosci? (Do you know me?)"
+  },
+  {
+   "id": "d-ti",
+   "deck": "dir",
+   "it": "ti",
+   "en": "you",
+   "ex": "Certo, <b>ti</b> conosco."
+  },
+  {
+   "id": "d-lo",
+   "deck": "dir",
+   "it": "lo",
+   "en": "him / it (masculine)",
+   "ex": "Compro il pane → <b>Lo</b> compro."
+  },
+  {
+   "id": "d-la",
+   "deck": "dir",
+   "it": "la",
+   "en": "her / it (feminine)",
+   "ex": "Preparo la torta → <b>La</b> preparo."
+  },
+  {
+   "id": "d-La",
+   "deck": "dir",
+   "it": "La",
+   "en": "you (formal)",
+   "ex": "Piacere di conoscer<b>La</b>, signora."
+  },
+  {
+   "id": "d-ci",
+   "deck": "dir",
+   "it": "ci",
+   "en": "us",
+   "ex": "Per favore, aiuta<b>ci</b>!"
+  },
+  {
+   "id": "d-vi",
+   "deck": "dir",
+   "it": "vi",
+   "en": "you all",
+   "ex": "Adesso <b>vi</b> vedo."
+  },
+  {
+   "id": "d-li",
+   "deck": "dir",
+   "it": "li",
+   "en": "them (masculine or mixed)",
+   "ex": "I romanzi → <b>Li</b> compro spesso."
+  },
+  {
+   "id": "d-le",
+   "deck": "dir",
+   "it": "le",
+   "en": "them (feminine)",
+   "ex": "Le borse → Compra<b>le</b>!"
+  },
+  {
+   "id": "i-mi",
+   "deck": "ind",
+   "it": "mi",
+   "en": "to / for me",
+   "ex": "Perché non <b>mi</b> rispondi?"
+  },
+  {
+   "id": "i-ti",
+   "deck": "ind",
+   "it": "ti",
+   "en": "to / for you",
+   "ex": "Devo dir<b>ti</b> una notizia."
+  },
+  {
+   "id": "i-gli",
+   "deck": "ind",
+   "it": "gli",
+   "en": "to him · to them",
+   "ex": "Scrivo a Marco → <b>Gli</b> scrivo. Scrivo ai figli → <b>Gli</b> scrivo.",
+   "note": "Same word for “to him” and “to them”."
+  },
+  {
+   "id": "i-le",
+   "deck": "ind",
+   "it": "le",
+   "en": "to / for her",
+   "ex": "Telefono a Maria → <b>Le</b> telefono."
+  },
+  {
+   "id": "i-Le",
+   "deck": "ind",
+   "it": "Le",
+   "en": "to / for you (formal)",
+   "ex": "Posso portar<b>Le</b> un dolce, signora?"
+  },
+  {
+   "id": "i-ci",
+   "deck": "ind",
+   "it": "ci",
+   "en": "to / for us",
+   "ex": "Luca, offri<b>ci</b> un bicchiere di vino!"
+  },
+  {
+   "id": "i-vi",
+   "deck": "ind",
+   "it": "vi",
+   "en": "to / for you all",
+   "ex": "<b>Vi</b> chiedo di ascoltarmi."
+  },
+  {
+   "id": "p-ame",
+   "deck": "ind",
+   "it": "a me",
+   "en": "to me (after the verb)",
+   "ex": "Lei porta felicità <b>a me</b>."
+  },
+  {
+   "id": "p-perte",
+   "deck": "ind",
+   "it": "per te",
+   "en": "for you",
+   "ex": "Compro un pasticcino <b>per te</b>."
+  },
+  {
+   "id": "p-conlui",
+   "deck": "ind",
+   "it": "con lui",
+   "en": "with him",
+   "ex": "Preparo la cena <b>con lui</b>."
+  },
+  {
+   "id": "p-alei",
+   "deck": "ind",
+   "it": "a lei",
+   "en": "to her (after the verb)",
+   "ex": "Mandali <b>a lei</b>."
+  },
+  {
+   "id": "p-conLei",
+   "deck": "ind",
+   "it": "con Lei",
+   "en": "with you (formal)",
+   "ex": "Parlo <b>con Lei</b>, signore."
+  },
+  {
+   "id": "p-pernoi",
+   "deck": "ind",
+   "it": "per noi",
+   "en": "for us",
+   "ex": "Il cuoco prepara la lasagna <b>per noi</b>."
+  },
+  {
+   "id": "p-pervoi",
+   "deck": "ind",
+   "it": "per voi",
+   "en": "for you all",
+   "ex": "L'insegnante lavora <b>per voi</b>."
+  },
+  {
+   "id": "p-traloro",
+   "deck": "ind",
+   "it": "tra loro",
+   "en": "between them",
+   "ex": "Niente si mette <b>tra loro</b>."
+  },
+  {
+   "id": "p-dalei",
+   "deck": "ind",
+   "it": "da lei",
+   "en": "to her place / to her (going to a person)",
+   "ex": "Puoi portarci <b>da lei</b>?",
+   "note": "Going to a person uses da: vado da Leona."
+  },
+  {
+   "id": "s-pane",
+   "deck": "sent",
+   "q": "Compro <b>il pane</b>.",
+   "a": "Lo compro.",
+   "g": "I buy it.",
+   "note": "Masculine thing, no “a” → lo."
+  },
+  {
+   "id": "s-maria-tel",
+   "deck": "sent",
+   "q": "Telefono <b>a Maria</b>.",
+   "a": "Le telefono.",
+   "g": "I phone her.",
+   "note": "There's an “a” → indirect. To her = le."
+  },
+  {
+   "id": "s-figli",
+   "deck": "sent",
+   "q": "Scrivo <b>ai miei figli</b>.",
+   "a": "Gli scrivo.",
+   "g": "I write to them.",
+   "note": "To them = gli (with G), not li."
+  },
+  {
+   "id": "s-marco-vedo",
+   "deck": "sent",
+   "q": "Vedo <b>Marco</b>.",
+   "a": "Lo vedo.",
+   "g": "I see him.",
+   "note": "No “a” → direct. Him = lo."
+  },
+  {
+   "id": "s-marco-scrivo",
+   "deck": "sent",
+   "q": "Scrivo <b>a Marco</b>.",
+   "a": "Gli scrivo.",
+   "g": "I write to him."
+  },
+  {
+   "id": "s-mele",
+   "deck": "sent",
+   "q": "Compro <b>le mele</b>.",
+   "a": "Le compro.",
+   "g": "I buy them.",
+   "note": "Feminine plural thing → le."
+  },
+  {
+   "id": "s-madre",
+   "deck": "sent",
+   "q": "Parlo <b>a mia madre</b>.",
+   "a": "Le parlo.",
+   "g": "I speak to her.",
+   "note": "There's an “a” → indirect, so le, not la."
+  },
+  {
+   "id": "s-amici",
+   "deck": "sent",
+   "q": "Aiuto <b>i miei amici</b>.",
+   "a": "Li aiuto.",
+   "g": "I help them.",
+   "note": "No “a”, masculine plural → li."
+  },
+  {
+   "id": "s-amiche",
+   "deck": "sent",
+   "q": "Aiuto <b>le mie amiche</b>.",
+   "a": "Le aiuto.",
+   "g": "I help them.",
+   "note": "No “a”, feminine plural → le."
+  },
+  {
+   "id": "s-sorella",
+   "deck": "sent",
+   "q": "Devo chiamare <b>mia sorella</b>.",
+   "a": "Devo chiamarla. / La devo chiamare.",
+   "g": "I have to call her.",
+   "note": "Never between the two verbs: either before devo or on the end of chiamare."
+  },
+  {
+   "id": "s-padre",
+   "deck": "sent",
+   "q": "Voglio dare un regalo <b>a mio padre</b>.",
+   "a": "Voglio dargli un regalo.",
+   "g": "I want to give him a gift.",
+   "note": "Also: Gli voglio dare un regalo."
+  },
+  {
+   "id": "s-festa",
+   "deck": "sent",
+   "q": "Dico della festa <b>a Maria e Chiara</b>.",
+   "a": "Gli dico della festa.",
+   "g": "I tell them about the party.",
+   "note": "To them = gli, even for women."
+  },
+  {
+   "id": "s-fiori",
+   "deck": "sent",
+   "q": "Manda <b>i fiori</b> a lei!",
+   "a": "Mandali a lei!",
+   "g": "Send them to her!",
+   "note": "The flowers are the thing sent → direct li. Gli is only for people receiving."
+  },
+  {
+   "id": "s-voi",
+   "deck": "sent",
+   "q": "Chiedo <b>a voi</b> di ascoltarmi.",
+   "a": "Vi chiedo di ascoltarmi.",
+   "g": "I ask you all to listen to me.",
+   "note": "Mi chiedo means “I wonder.”"
+  },
+  {
+   "id": "s-dalei",
+   "deck": "sent",
+   "q": "Can you take us to her? (Puoi portar__ __ lei?)",
+   "a": "Puoi portarci da lei?",
+   "g": "Going to a person uses da."
+  },
+  {
+   "id": "s-italiano",
+   "deck": "sent",
+   "q": "Ti insegno a parlare <b>l'italiano</b>.",
+   "a": "Ti insegno a parlarlo.",
+   "g": "I teach you to speak it.",
+   "note": "L'italiano is masculine → lo. Insegnare a + infinitive."
+  },
+  {
+   "id": "s-torta",
+   "deck": "sent",
+   "q": "Ho bisogno di una torta. Compro <b>la torta</b>.",
+   "a": "La compro.",
+   "g": "I'm buying it.",
+   "note": "Torta is feminine → la, not lo."
+  },
+  {
+   "id": "s-pizza",
+   "deck": "sent",
+   "q": "Luca, non mangiare <b>la pizza</b> tutta!",
+   "a": "Non mangiarla tutta!",
+   "g": "Don't eat it all!",
+   "note": "Negative command to one person: non + infinitive, pronoun on the end."
+  },
+  {
+   "id": "s-borse",
+   "deck": "sent",
+   "q": "Compra <b>le borse</b>!",
+   "a": "Comprale!",
+   "g": "Buy them!",
+   "note": "Commands: pronoun goes on the end."
+  },
+  {
+   "id": "s-aiuta",
+   "deck": "sent",
+   "q": "Per favore, aiuta <b>noi</b>!",
+   "a": "Aiutaci!",
+   "g": "Help us!"
+  },
+  {
+   "id": "s-signora",
+   "deck": "sent",
+   "q": "Signora, posso portare un caffè <b>a Lei</b>?",
+   "a": "Posso portarLe un caffè? / Le posso portare un caffè?",
+   "g": "May I bring you a coffee?",
+   "note": "Formal you, indirect = Le."
+  },
+  {
+   "id": "s-conoscere",
+   "deck": "sent",
+   "q": "Piacere di conoscere <b>Lei</b>, signor Rossi.",
+   "a": "Piacere di conoscerLa.",
+   "g": "Nice to meet you.",
+   "note": "Formal you, direct = La."
+  },
+  {
+   "id": "s-sorella-pec",
+   "deck": "sent",
+   "q": "Compro due etti di pecorino <b>a mia sorella</b>.",
+   "a": "Le compro due etti di pecorino.",
+   "g": "I'm buying her two etti of pecorino."
+  },
+  {
+   "id": "s-gioca",
+   "deck": "sent",
+   "q": "Lui gioca a calcio <b>con i suoi amici</b>.",
+   "a": "Lui gioca a calcio con loro.",
+   "g": "He plays soccer with them.",
+   "note": "After a preposition use the long form: con loro."
+  },
+  {
+   "id": "s-matrix",
+   "deck": "sent",
+   "q": "A me e a mio padre piace guardare <b>il film</b>.",
+   "a": "Ci piace guardarlo.",
+   "g": "We like to watch it.",
+   "note": "Ci = to us; lo attaches to the infinitive."
+  },
+  {
+   "id": "s-prosc",
+   "deck": "sent",
+   "q": "Clerk: Vuole il prosciutto? You: Sì, voglio comprare <b>il prosciutto</b>.",
+   "a": "Sì, voglio comprarlo. / Sì, lo voglio comprare.",
+   "g": "Yes, I want to buy it."
+  },
+  {
+   "id": "s-spesso",
+   "deck": "sent",
+   "q": "Clerk: Lo vuole affettato sottile o spesso? (answer: thick)",
+   "a": "Lo voglio spesso, per favore.",
+   "g": "I want it thick, please."
+  },
+  {
+   "id": "s-ne",
+   "deck": "sent",
+   "q": "Clerk: Quanto ne vuole? (answer: 3 etti)",
+   "a": "Ne vorrei tre etti.",
+   "g": "I'd like three etti of it.",
+   "note": "Ne = “of it / of them” with quantities."
+  },
+  {
+   "id": "s-vino",
+   "deck": "sent",
+   "q": "Vedo una bottiglia di Sangiovese. Prendiamo <b>la bottiglia</b>!",
+   "a": "Prendiamola!",
+   "g": "Let's take it!",
+   "note": "“Let's…” commands also attach the pronoun."
+  },
+  {
+   "id": "po-mio-libro",
+   "deck": "poss",
+   "it": "il mio libro",
+   "en": "my book"
+  },
+  {
+   "id": "po-mia-macchina",
+   "deck": "poss",
+   "it": "la mia macchina",
+   "en": "my car"
+  },
+  {
+   "id": "po-mie-chiavi",
+   "deck": "poss",
+   "it": "le mie chiavi",
+   "en": "my keys"
+  },
+  {
+   "id": "po-miei-cugini",
+   "deck": "poss",
+   "it": "i miei cugini",
+   "en": "my cousins",
+   "note": "Mio becomes miei in the plural. Plural family members keep the article."
+  },
+  {
+   "id": "po-tua-borsa",
+   "deck": "poss",
+   "it": "la tua borsa",
+   "en": "your bag (tu)"
+  },
+  {
+   "id": "po-tuoi-amici",
+   "deck": "poss",
+   "it": "i tuoi amici",
+   "en": "your friends (tu)"
+  },
+  {
+   "id": "po-tue-foto",
+   "deck": "poss",
+   "it": "le tue foto",
+   "en": "your photos (tu)",
+   "note": "Foto is feminine and doesn't change in the plural: la foto, le foto."
+  },
+  {
+   "id": "po-sua-macchina",
+   "deck": "poss",
+   "it": "la sua macchina",
+   "en": "his car",
+   "note": "Sua matches macchina (feminine), not him."
+  },
+  {
+   "id": "po-suo-libro",
+   "deck": "poss",
+   "it": "il suo libro",
+   "en": "her book",
+   "note": "Suo matches libro (masculine), not her."
+  },
+  {
+   "id": "po-suoi-biglietti",
+   "deck": "poss",
+   "it": "i suoi biglietti",
+   "en": "her tickets"
+  },
+  {
+   "id": "po-Suo-passaporto",
+   "deck": "poss",
+   "it": "il Suo passaporto",
+   "en": "your passport (formal, Lei)",
+   "note": "Formal “your” uses the same forms as his/her: Suo, Sua, Suoi, Sue."
+  },
+  {
+   "id": "po-nostra-casa",
+   "deck": "poss",
+   "it": "la nostra casa",
+   "en": "our house"
+  },
+  {
+   "id": "po-nostri-amici",
+   "deck": "poss",
+   "it": "i nostri amici",
+   "en": "our friends"
+  },
+  {
+   "id": "po-vostro-albergo",
+   "deck": "poss",
+   "it": "il vostro albergo",
+   "en": "your hotel (you all)"
+  },
+  {
+   "id": "po-vostre-valigie",
+   "deck": "poss",
+   "it": "le vostre valigie",
+   "en": "your suitcases (you all)"
+  },
+  {
+   "id": "po-loro-casa",
+   "deck": "poss",
+   "it": "la loro casa",
+   "en": "their house",
+   "note": "Loro never changes. Only the article changes: il loro, la loro, i loro, le loro."
+  },
+  {
+   "id": "po-loro-amiche",
+   "deck": "poss",
+   "it": "le loro amiche",
+   "en": "their friends (all women)"
+  },
+  {
+   "id": "po-fam-sorella",
+   "deck": "poss",
+   "it": "mia sorella",
+   "en": "my sister",
+   "note": "One family member: no article. Mia sorella, not la mia sorella."
+  },
+  {
+   "id": "po-fam-padre",
+   "deck": "poss",
+   "it": "tuo padre",
+   "en": "your father (tu)",
+   "note": "Singular family member, so no article."
+  },
+  {
+   "id": "po-fam-marito",
+   "deck": "poss",
+   "it": "suo marito",
+   "en": "her husband",
+   "note": "No article, and suo matches marito."
+  },
+  {
+   "id": "po-fam-figlia",
+   "deck": "poss",
+   "it": "sua figlia",
+   "en": "his daughter",
+   "note": "No article, and sua matches figlia."
+  },
+  {
+   "id": "po-fam-zio",
+   "deck": "poss",
+   "it": "nostro zio",
+   "en": "our uncle"
+  },
+  {
+   "id": "po-fam-nonni",
+   "deck": "poss",
+   "it": "i nostri nonni",
+   "en": "our grandparents",
+   "note": "Plural family members take the article."
+  },
+  {
+   "id": "po-fam-sorelle",
+   "deck": "poss",
+   "it": "le sue sorelle",
+   "en": "her sisters",
+   "note": "Plural, so the article comes back."
+  },
+  {
+   "id": "po-fam-loro",
+   "deck": "poss",
+   "it": "il loro figlio",
+   "en": "their son",
+   "note": "Loro always keeps the article, even with one family member."
+  },
+  {
+   "id": "po-fam-mamma",
+   "deck": "poss",
+   "it": "la mia mamma",
+   "en": "my mom",
+   "note": "Affectionate words like mamma and papà usually keep the article. Mia madre has none."
+  },
+  {
+   "id": "de-questo-vino",
+   "deck": "dem",
+   "it": "questo vino",
+   "en": "this wine"
+  },
+  {
+   "id": "de-questa-torta",
+   "deck": "dem",
+   "it": "questa torta",
+   "en": "this cake"
+  },
+  {
+   "id": "de-quest-olio",
+   "deck": "dem",
+   "it": "quest'olio",
+   "en": "this oil",
+   "note": "Before a vowel, questo and questa often shorten to quest'."
+  },
+  {
+   "id": "de-questi-pasticcini",
+   "deck": "dem",
+   "it": "questi pasticcini",
+   "en": "these pastries"
+  },
+  {
+   "id": "de-queste-fette",
+   "deck": "dem",
+   "it": "queste fette",
+   "en": "these slices"
+  },
+  {
+   "id": "de-quel-pane",
+   "deck": "dem",
+   "it": "quel pane",
+   "en": "that bread",
+   "note": "il pane → quel pane. Quello copies the article's ending."
+  },
+  {
+   "id": "de-quello-yogurt",
+   "deck": "dem",
+   "it": "quello yogurt",
+   "en": "that yogurt",
+   "note": "lo yogurt → quello yogurt. Same before s + consonant: lo spumante → quello spumante."
+  },
+  {
+   "id": "de-quell-olio",
+   "deck": "dem",
+   "it": "quell'olio",
+   "en": "that oil",
+   "note": "l'olio → quell'olio. The handout groups vowels with quello; before a vowel it shortens to quell'."
+  },
+  {
+   "id": "de-quella-mortadella",
+   "deck": "dem",
+   "it": "quella mortadella",
+   "en": "that mortadella"
+  },
+  {
+   "id": "de-quell-aranciata",
+   "deck": "dem",
+   "it": "quell'aranciata",
+   "en": "that orange soda",
+   "note": "l'aranciata → quell'aranciata."
+  },
+  {
+   "id": "de-quei-panini",
+   "deck": "dem",
+   "it": "quei panini",
+   "en": "those sandwiches",
+   "note": "i panini → quei panini."
+  },
+  {
+   "id": "de-quegli-affettati",
+   "deck": "dem",
+   "it": "quegli affettati",
+   "en": "those cold cuts",
+   "note": "gli affettati → quegli affettati."
+  },
+  {
+   "id": "de-quegli-studenti",
+   "deck": "dem",
+   "it": "quegli studenti",
+   "en": "those students",
+   "note": "gli studenti → quegli studenti."
+  },
+  {
+   "id": "de-quelle-bottiglie",
+   "deck": "dem",
+   "it": "quelle bottiglie",
+   "en": "those bottles"
+  },
+  {
+   "id": "de-prendo-quello",
+   "deck": "dem",
+   "it": "Prendo quello.",
+   "en": "I'll take that one. (a masculine thing)",
+   "note": "Standing alone, “that one” is always quello or quella, never quel."
+  },
+  {
+   "id": "de-questa-qui",
+   "deck": "dem",
+   "it": "Questa, per favore.",
+   "en": "This one, please. (a feminine thing)"
+  }
+ ],
+ "refs": [
+  {
+   "title": "The pronoun charts",
+   "html": "<h3 class=\"refh\">Direct and indirect</h3>\n<div class=\"tblwrap\"><table class=\"ref\">\n  <thead><tr><th>English</th><th>Direct</th><th>Indirect</th><th>With a preposition</th></tr></thead>\n  <tbody>\n    <tr><td>me</td><td class=\"c1\">mi</td><td class=\"c2\">mi</td><td>a me</td></tr>\n    <tr><td>you</td><td class=\"c1\">ti</td><td class=\"c2\">ti</td><td>a te</td></tr>\n    <tr><td>him / it (m)</td><td class=\"c1\">lo</td><td class=\"c2\">gli</td><td>a lui</td></tr>\n    <tr><td>her / it (f)</td><td class=\"c1\">la</td><td class=\"c2\">le</td><td>a lei</td></tr>\n    <tr><td>you (formal)</td><td class=\"c1\">La</td><td class=\"c2\">Le</td><td>a Lei</td></tr>\n    <tr><td>us</td><td class=\"c1\">ci</td><td class=\"c2\">ci</td><td>a noi</td></tr>\n    <tr><td>you all</td><td class=\"c1\">vi</td><td class=\"c2\">vi</td><td>a voi</td></tr>\n    <tr><td>them (m)</td><td class=\"c1\">li</td><td class=\"c2\">gli</td><td>a loro</td></tr>\n    <tr><td>them (f)</td><td class=\"c1\">le</td><td class=\"c2\">gli</td><td>a loro</td></tr>\n  </tbody>\n</table></div>\n<p class=\"reftip\">Quick test: if there is an <b>a</b> before the person (Telefono <b>a</b> Maria), it's indirect. No <b>a</b> (Vedo Maria), it's direct.</p>\n\n<h3 class=\"refh\">Possessives</h3>\n<div class=\"tblwrap\"><table class=\"ref\">\n  <thead><tr><th></th><th>m. sing.</th><th>f. sing.</th><th>m. plural</th><th>f. plural</th></tr></thead>\n  <tbody>\n    <tr><td>my</td><td class=\"c3\">il mio</td><td class=\"c3\">la mia</td><td class=\"c3\">i miei</td><td class=\"c3\">le mie</td></tr>\n    <tr><td>your</td><td class=\"c3\">il tuo</td><td class=\"c3\">la tua</td><td class=\"c3\">i tuoi</td><td class=\"c3\">le tue</td></tr>\n    <tr><td>his / her / your (Lei)</td><td class=\"c3\">il suo</td><td class=\"c3\">la sua</td><td class=\"c3\">i suoi</td><td class=\"c3\">le sue</td></tr>\n    <tr><td>our</td><td class=\"c3\">il nostro</td><td class=\"c3\">la nostra</td><td class=\"c3\">i nostri</td><td class=\"c3\">le nostre</td></tr>\n    <tr><td>your (all)</td><td class=\"c3\">il vostro</td><td class=\"c3\">la vostra</td><td class=\"c3\">i vostri</td><td class=\"c3\">le vostre</td></tr>\n    <tr><td>their</td><td class=\"c3\">il loro</td><td class=\"c3\">la loro</td><td class=\"c3\">i loro</td><td class=\"c3\">le loro</td></tr>\n  </tbody>\n</table></div>\n<p class=\"reftip\">The ending matches the <b>thing</b>, not the owner. Drop the article for one family member (<b>mia</b> sorella), keep it for plurals (<b>i miei</b> genitori) and always with <b>loro</b>.</p>\n\n<h3 class=\"refh\">This and that</h3>\n<div class=\"tblwrap\"><table class=\"ref\">\n  <thead><tr><th>Article</th><th>this / these</th><th>that / those</th><th>Example</th></tr></thead>\n  <tbody>\n    <tr><td>il</td><td class=\"c4\">questo</td><td class=\"c4\">quel</td><td>quel pane</td></tr>\n    <tr><td>lo</td><td class=\"c4\">questo</td><td class=\"c4\">quello</td><td>quello yogurt</td></tr>\n    <tr><td>l'</td><td class=\"c4\">quest'</td><td class=\"c4\">quell'</td><td>quell'olio</td></tr>\n    <tr><td>la</td><td class=\"c4\">questa</td><td class=\"c4\">quella</td><td>quella fetta</td></tr>\n    <tr><td>i</td><td class=\"c4\">questi</td><td class=\"c4\">quei</td><td>quei panini</td></tr>\n    <tr><td>gli</td><td class=\"c4\">questi</td><td class=\"c4\">quegli</td><td>quegli affettati</td></tr>\n    <tr><td>le</td><td class=\"c4\">queste</td><td class=\"c4\">quelle</td><td>quelle bottiglie</td></tr>\n  </tbody>\n</table></div>\n<p class=\"reftip\">Quello copies the article: qu<b>el</b> ↔ <b>il</b>, que<b>i</b> ↔ <b>i</b>, que<b>gli</b> ↔ <b>gli</b>.</p>"
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Italian Cards</title>
+<meta name="description" content="Offline Italian flashcards for Ciao Bella Gente! Level 2.">
+<meta name="theme-color" content="#1f6b55">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Italian Cards">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ===== Home: list of card sets ===== -->
+  <main id="home" hidden>
+    <header>
+      <h1>Italian Cards</h1>
+      <p>Ciao Bella Gente! Level 2. Pick a set. Everything works offline once it's loaded.</p>
+    </header>
+    <p class="netline" id="netline"></p>
+    <ul class="sets" id="sets"></ul>
+
+    <details>
+      <summary>Copy every practice list for Claude</summary>
+      <p class="reftip">One paste with all the cards you marked “Practice again”, across every set.</p>
+      <div class="tools"><button class="btn ghost" id="copyAll">Copy all practice lists</button></div>
+      <textarea class="copyarea" id="copyAllArea" hidden readonly></textarea>
+    </details>
+
+    <details>
+      <summary>Move progress to another device</summary>
+      <p class="reftip">Progress is saved on each device separately. To carry it over: on the old device tap <b>Copy progress</b> (or <b>Save progress file</b>), then on the new device paste it below (or choose the file) and tap <b>Import</b>. Imports merge; nothing is lost.</p>
+      <div class="tools">
+        <button class="btn ghost" id="exportCopy">Copy progress</button>
+        <button class="btn ghost" id="exportFile">Save progress file</button>
+      </div>
+      <textarea class="copyarea" id="importArea" placeholder="Paste progress here…"></textarea>
+      <div class="tools">
+        <button class="btn ghost" id="importBtn">Import</button>
+        <label class="btn ghost filebtn">Choose file…<input type="file" id="importFile" accept=".json,application/json" hidden></label>
+        <span class="hint" id="importMsg"></span>
+      </div>
+    </details>
+
+    <details>
+      <summary>Install on your phone, tablet or computer</summary>
+      <ul class="fixes">
+        <li><b>iPhone / iPad:</b> open this page in Safari, tap Share, then <b>Add to Home Screen</b>. Open it from the home-screen icon from then on.</li>
+        <li><b>Android:</b> in Chrome, tap the ⋮ menu, then <b>Install app</b> (or Add to Home screen).</li>
+        <li><b>Mac:</b> in Safari, File → <b>Add to Dock</b>. In Chrome, click the install icon at the right of the address bar.</li>
+        <li><b>Linux:</b> in Chrome or Chromium, use the install icon in the address bar. In Firefox, just bookmark it; it still works offline after the first visit.</li>
+        <li>Open it once while online after each class so the new cards download. After that, no connection needed.</li>
+      </ul>
+    </details>
+    <p class="sync" id="version"></p>
+  </main>
+
+  <!-- ===== Study view for one set ===== -->
+  <main id="study-view" hidden>
+    <header>
+      <a class="backlink" href="#">← All sets</a>
+      <h1 id="setTitle"></h1>
+      <p id="setSub"></p>
+    </header>
+
+    <section class="controls" aria-label="Deck settings">
+      <div class="row"><span class="lbl">Cards</span><div class="decks" id="deck"></div></div>
+      <div class="row"><span class="lbl">Show first</span>
+        <div class="seg" id="dir"><button data-v="en">English</button><button data-v="it">Italian</button></div></div>
+      <div class="row"><span class="lbl">Session</span>
+        <div class="seg" id="size"><button data-v="15">15 cards</button><button data-v="30">30</button><button data-v="0">All</button><button data-v="miss">Practice list only</button></div></div>
+    </section>
+
+    <div>
+      <div class="status"><span id="count"></span><span id="mix"></span></div>
+      <div class="bar"><i id="barfill"></i></div>
+    </div>
+
+    <div id="study">
+      <div class="stage">
+        <div class="card" id="card" tabindex="0" role="button" aria-label="Flashcard, press to flip">
+          <div class="face front"><div class="top"><span id="fTag"></span><span id="fSrc"></span></div><div class="mid" id="fMid"></div><div class="hint center">Tap to flip</div></div>
+          <div class="face back"><div class="top"><span id="bTag"></span><span id="bSrc"></span></div><div class="mid" id="bMid"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="answer" id="answer">
+      <button class="btn flip" id="flipBtn">Flip card<small>Space</small></button>
+      <button class="btn miss" id="missBtn" hidden>Practice again<small>1 or ←</small></button>
+      <button class="btn ok" id="okBtn" hidden>Got it<small>2 or →</small></button>
+    </div>
+
+    <div class="done" id="done" hidden>
+      <h2>Bravo, session done.</h2>
+      <p id="doneMsg"></p>
+      <button class="btn ok" id="againBtn">Start another session</button>
+    </div>
+
+    <p class="keys"><kbd>Space</kbd> flip · <kbd>1</kbd> practice again · <kbd>2</kbd> got it</p>
+
+    <section class="tally" aria-label="Progress on these cards">
+      <div class="p"><b id="tP">0</b><span>Need practice</span></div>
+      <div class="s"><b id="tS">0</b><span>Solid (right twice in a row)</span></div>
+      <div><b id="tN">0</b><span>Not seen yet</span></div>
+    </section>
+
+    <div id="refs"></div>
+
+    <details>
+      <summary>Practice list (<span id="pcount">0</span>)</summary>
+      <ul class="plist" id="plist"></ul>
+      <div class="tools">
+        <button class="btn ghost" id="copyBtn">Copy list for Claude</button>
+        <button class="btn ghost" id="resetBtn">Reset this set</button>
+        <span id="resetConfirm" hidden class="row"><span class="hint">Erase all marks for this set?</span><button class="btn ghost miss" id="resetYes">Yes, erase</button><button class="btn ghost" id="resetNo">Cancel</button></span>
+      </div>
+      <textarea class="copyarea" id="copyArea" hidden readonly></textarea>
+    </details>
+  </main>
+
+  <main id="loading"><p class="hint center">Caricamento…</p></main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

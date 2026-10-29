@@ -1,0 +1,729 @@
+{
+ "id": "prepositions",
+ "title": "Prepositions",
+ "subtitle": "a, di, da, in, su with articles, plus con, per, tra/fra",
+ "order": 15,
+ "defaultDir": "it",
+ "decks": {
+  "alone": {
+   "name": "Alone (a, di, con…)",
+   "short": "preposition",
+   "kind": "word",
+   "color": "cs",
+   "askEn": "Which preposition?",
+   "askIt": "What does it mean?"
+  },
+  "a": {
+   "name": "a + article",
+   "short": "a + article",
+   "kind": "word",
+   "color": "c1",
+   "askEn": "Say the combined form",
+   "askIt": "Which preposition + article?"
+  },
+  "di": {
+   "name": "di + article",
+   "short": "di + article",
+   "kind": "word",
+   "color": "c2",
+   "askEn": "Say the combined form",
+   "askIt": "Which preposition + article?"
+  },
+  "da": {
+   "name": "da + article",
+   "short": "da + article",
+   "kind": "word",
+   "color": "c3",
+   "askEn": "Say the combined form",
+   "askIt": "Which preposition + article?"
+  },
+  "in": {
+   "name": "in + article",
+   "short": "in + article",
+   "kind": "word",
+   "color": "c4",
+   "askEn": "Say the combined form",
+   "askIt": "Which preposition + article?"
+  },
+  "su": {
+   "name": "su + article",
+   "short": "su + article",
+   "kind": "word",
+   "color": "c1",
+   "askEn": "Say the combined form",
+   "askIt": "Which preposition + article?"
+  }
+ },
+ "cards": [
+  {
+   "id": "alone::a",
+   "deck": "alone",
+   "it": "a",
+   "en": "to / at / in (cities)",
+   "ex": "<b>Vado a Roma.</b> (I’m going to Rome.)",
+   "note": "Cities and home take a with no article: a Roma, a casa, a letto."
+  },
+  {
+   "id": "alone::di",
+   "deck": "alone",
+   "it": "di",
+   "en": "of / from (hometown)",
+   "ex": "<b>Sono di Tampa.</b> (I’m from Tampa.)",
+   "note": "Also possession: un amico di Maria = a friend of Maria’s."
+  },
+  {
+   "id": "alone::da",
+   "deck": "alone",
+   "it": "da",
+   "en": "from / at someone’s place / since",
+   "ex": "<b>Vado da Leona.</b> (I’m going to Leona’s.)",
+   "note": "Going to a person = da. Also \"since\": studio italiano da due anni."
+  },
+  {
+   "id": "alone::in",
+   "deck": "alone",
+   "it": "in",
+   "en": "in / to (countries) / by (transport)",
+   "ex": "<b>Vado in Italia in macchina.</b> (I’m going to Italy by car.)",
+   "note": "Countries, regions and transport take in with no article."
+  },
+  {
+   "id": "alone::su",
+   "deck": "alone",
+   "it": "su",
+   "en": "on / about",
+   "ex": "<b>un libro su Roma</b> (a book about Rome)",
+   "note": "With a or one: su una sedia = on a chair."
+  },
+  {
+   "id": "alone::con",
+   "deck": "alone",
+   "it": "con",
+   "en": "with",
+   "ex": "<b>Parto con la mia famiglia.</b> (I’m leaving with my family.)",
+   "note": "Doesn’t join with the article: con il, con la, con i."
+  },
+  {
+   "id": "alone::per",
+   "deck": "alone",
+   "it": "per",
+   "en": "for",
+   "ex": "<b>Parto per le vacanze.</b> (I’m leaving for the holidays.)",
+   "note": "Doesn’t join with the article: per il, per la, per le."
+  },
+  {
+   "id": "alone::tra / fra",
+   "deck": "alone",
+   "it": "tra / fra",
+   "en": "between / among / in (time)",
+   "ex": "<b>Ci vediamo tra un’ora.</b> (See you in an hour.)",
+   "note": "Tra and fra mean the same; pick the one that sounds better. Never joined: tra la farmacia e la chiesa."
+  },
+  {
+   "id": "a::al",
+   "deck": "a",
+   "it": "al",
+   "en": "a + il · to / at the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>al bar</b> (at the café)<br><b>al</b> · allo · all' · alla · ai · agli · alle",
+   "note": "No article with cities and home: a Roma, a casa."
+  },
+  {
+   "id": "a::allo",
+   "deck": "a",
+   "it": "allo",
+   "en": "a + lo · to / at the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>allo stadio</b> (to the stadium)<br>al · <b>allo</b> · all' · alla · ai · agli · alle"
+  },
+  {
+   "id": "a::all'",
+   "deck": "a",
+   "it": "all'",
+   "en": "a + l' · to / at the",
+   "chips": [
+    {
+     "t": "maschile o femminile",
+     "c": "mf"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>all'aeroporto</b> (to the airport)<br>al · allo · <b>all'</b> · alla · ai · agli · alle"
+  },
+  {
+   "id": "a::alla",
+   "deck": "a",
+   "it": "alla",
+   "en": "a + la · to / at the",
+   "chips": [
+    {
+     "t": "femminile",
+     "c": "f"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>alla stazione</b> (at the station)<br>al · allo · all' · <b>alla</b> · ai · agli · alle"
+  },
+  {
+   "id": "a::ai",
+   "deck": "a",
+   "it": "ai",
+   "en": "a + i · to / at the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>ai bambini</b> (to the children)<br>al · allo · all' · alla · <b>ai</b> · agli · alle"
+  },
+  {
+   "id": "a::agli",
+   "deck": "a",
+   "it": "agli",
+   "en": "a + gli · to / at the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>agli studenti</b> (to the students)<br>al · allo · all' · alla · ai · <b>agli</b> · alle"
+  },
+  {
+   "id": "a::alle",
+   "deck": "a",
+   "it": "alle",
+   "en": "a + le · to / at the",
+   "chips": [
+    {
+     "t": "femminile",
+     "c": "f"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>alle otto</b> (at eight o’clock)<br>al · allo · all' · alla · ai · agli · <b>alle</b>",
+   "note": "Clock times: alle due, alle otto. But all’una (1:00) and a mezzogiorno."
+  },
+  {
+   "id": "di::del",
+   "deck": "di",
+   "it": "del",
+   "en": "di + il · of the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>il libro del professore</b> (the professor’s book)<br><b>del</b> · dello · dell' · della · dei · degli · delle",
+   "note": "Also means \"some\": del pane = some bread, dei biscotti = some cookies."
+  },
+  {
+   "id": "di::dello",
+   "deck": "di",
+   "it": "dello",
+   "en": "di + lo · of the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>la casa dello zio</b> (the uncle’s house)<br>del · <b>dello</b> · dell' · della · dei · degli · delle"
+  },
+  {
+   "id": "di::dell'",
+   "deck": "di",
+   "it": "dell'",
+   "en": "di + l' · of the",
+   "chips": [
+    {
+     "t": "maschile o femminile",
+     "c": "mf"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>il nome dell'albergo</b> (the name of the hotel)<br>del · dello · <b>dell'</b> · della · dei · degli · delle"
+  },
+  {
+   "id": "di::della",
+   "deck": "di",
+   "it": "della",
+   "en": "di + la · of the",
+   "chips": [
+    {
+     "t": "femminile",
+     "c": "f"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>la casa della nonna</b> (grandma’s house)<br>del · dello · dell' · <b>della</b> · dei · degli · delle"
+  },
+  {
+   "id": "di::dei",
+   "deck": "di",
+   "it": "dei",
+   "en": "di + i · of the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>le scarpe dei bambini</b> (the children’s shoes)<br>del · dello · dell' · della · <b>dei</b> · degli · delle"
+  },
+  {
+   "id": "di::degli",
+   "deck": "di",
+   "it": "degli",
+   "en": "di + gli · of the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>i libri degli studenti</b> (the students’ books)<br>del · dello · dell' · della · dei · <b>degli</b> · delle"
+  },
+  {
+   "id": "di::delle",
+   "deck": "di",
+   "it": "delle",
+   "en": "di + le · of the",
+   "chips": [
+    {
+     "t": "femminile",
+     "c": "f"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>il programma delle vacanze</b> (the plan for the holidays)<br>del · dello · dell' · della · dei · degli · <b>delle</b>"
+  },
+  {
+   "id": "da::dal",
+   "deck": "da",
+   "it": "dal",
+   "en": "da + il · from / at the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>dal dottore</b> (to the doctor’s)<br><b>dal</b> · dallo · dall' · dalla · dai · dagli · dalle",
+   "note": "Going to a person’s place uses da: vado dal dottore, vado da Leona."
+  },
+  {
+   "id": "da::dallo",
+   "deck": "da",
+   "it": "dallo",
+   "en": "da + lo · from / at the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>dallo zio</b> (at the uncle’s)<br>dal · <b>dallo</b> · dall' · dalla · dai · dagli · dalle"
+  },
+  {
+   "id": "da::dall'",
+   "deck": "da",
+   "it": "dall'",
+   "en": "da + l' · from / at the",
+   "chips": [
+    {
+     "t": "maschile o femminile",
+     "c": "mf"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>dall'aeroporto</b> (from the airport)<br>dal · dallo · <b>dall'</b> · dalla · dai · dagli · dalle"
+  },
+  {
+   "id": "da::dalla",
+   "deck": "da",
+   "it": "dalla",
+   "en": "da + la · from / at the",
+   "chips": [
+    {
+     "t": "femminile",
+     "c": "f"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>dalla stazione</b> (from the station)<br>dal · dallo · dall' · <b>dalla</b> · dai · dagli · dalle"
+  },
+  {
+   "id": "da::dai",
+   "deck": "da",
+   "it": "dai",
+   "en": "da + i · from / at the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>dai nonni</b> (at the grandparents’ house)<br>dal · dallo · dall' · dalla · <b>dai</b> · dagli · dalle"
+  },
+  {
+   "id": "da::dagli",
+   "deck": "da",
+   "it": "dagli",
+   "en": "da + gli · from / at the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>dagli amici</b> (at the friends’ place)<br>dal · dallo · dall' · dalla · dai · <b>dagli</b> · dalle"
+  },
+  {
+   "id": "da::dalle",
+   "deck": "da",
+   "it": "dalle",
+   "en": "da + le · from / at the",
+   "chips": [
+    {
+     "t": "femminile",
+     "c": "f"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>dalle nove alle cinque</b> (from nine to five)<br>dal · dallo · dall' · dalla · dai · dagli · <b>dalle</b>"
+  },
+  {
+   "id": "in::nel",
+   "deck": "in",
+   "it": "nel",
+   "en": "in + il · in the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>nel negozio</b> (in the store)<br><b>nel</b> · nello · nell' · nella · nei · negli · nelle",
+   "note": "No article with countries, centro and transport: in Italia, in centro, in macchina."
+  },
+  {
+   "id": "in::nello",
+   "deck": "in",
+   "it": "nello",
+   "en": "in + lo · in the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>nello zaino</b> (in the backpack)<br>nel · <b>nello</b> · nell' · nella · nei · negli · nelle"
+  },
+  {
+   "id": "in::nell'",
+   "deck": "in",
+   "it": "nell'",
+   "en": "in + l' · in the",
+   "chips": [
+    {
+     "t": "maschile o femminile",
+     "c": "mf"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>nell'ufficio</b> (in the office)<br>nel · nello · <b>nell'</b> · nella · nei · negli · nelle"
+  },
+  {
+   "id": "in::nella",
+   "deck": "in",
+   "it": "nella",
+   "en": "in + la · in the",
+   "chips": [
+    {
+     "t": "femminile",
+     "c": "f"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>nella borsa</b> (in the purse)<br>nel · nello · nell' · <b>nella</b> · nei · negli · nelle"
+  },
+  {
+   "id": "in::nei",
+   "deck": "in",
+   "it": "nei",
+   "en": "in + i · in the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>nei negozi</b> (in the stores)<br>nel · nello · nell' · nella · <b>nei</b> · negli · nelle"
+  },
+  {
+   "id": "in::negli",
+   "deck": "in",
+   "it": "negli",
+   "en": "in + gli · in the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>negli Stati Uniti</b> (in the United States)<br>nel · nello · nell' · nella · nei · <b>negli</b> · nelle"
+  },
+  {
+   "id": "in::nelle",
+   "deck": "in",
+   "it": "nelle",
+   "en": "in + le · in the",
+   "chips": [
+    {
+     "t": "femminile",
+     "c": "f"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>nelle valigie</b> (in the suitcases)<br>nel · nello · nell' · nella · nei · negli · <b>nelle</b>"
+  },
+  {
+   "id": "su::sul",
+   "deck": "su",
+   "it": "sul",
+   "en": "su + il · on / about the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>sul treno</b> (on the train)<br><b>sul</b> · sullo · sull' · sulla · sui · sugli · sulle"
+  },
+  {
+   "id": "su::sullo",
+   "deck": "su",
+   "it": "sullo",
+   "en": "su + lo · on / about the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>sullo zaino</b> (on the backpack)<br>sul · <b>sullo</b> · sull' · sulla · sui · sugli · sulle"
+  },
+  {
+   "id": "su::sull'",
+   "deck": "su",
+   "it": "sull'",
+   "en": "su + l' · on / about the",
+   "chips": [
+    {
+     "t": "maschile o femminile",
+     "c": "mf"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>sull'isola</b> (on the island)<br>sul · sullo · <b>sull'</b> · sulla · sui · sugli · sulle"
+  },
+  {
+   "id": "su::sulla",
+   "deck": "su",
+   "it": "sulla",
+   "en": "su + la · on / about the",
+   "chips": [
+    {
+     "t": "femminile",
+     "c": "f"
+    },
+    {
+     "t": "singolare",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>sulla sedia</b> (on the chair)<br>sul · sullo · sull' · <b>sulla</b> · sui · sugli · sulle"
+  },
+  {
+   "id": "su::sui",
+   "deck": "su",
+   "it": "sui",
+   "en": "su + i · on / about the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>sui tavoli</b> (on the tables)<br>sul · sullo · sull' · sulla · <b>sui</b> · sugli · sulle"
+  },
+  {
+   "id": "su::sugli",
+   "deck": "su",
+   "it": "sugli",
+   "en": "su + gli · on / about the",
+   "chips": [
+    {
+     "t": "maschile",
+     "c": "m"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>un libro sugli italiani</b> (a book about the Italians)<br>sul · sullo · sull' · sulla · sui · <b>sugli</b> · sulle"
+  },
+  {
+   "id": "su::sulle",
+   "deck": "su",
+   "it": "sulle",
+   "en": "su + le · on / about the",
+   "chips": [
+    {
+     "t": "femminile",
+     "c": "f"
+    },
+    {
+     "t": "plurale",
+     "c": "form"
+    }
+   ],
+   "ex": "<b>sulle scale</b> (on the stairs)<br>sul · sullo · sull' · sulla · sui · sugli · <b>sulle</b>"
+  }
+ ],
+ "refs": [
+  {
+   "title": "Full chart",
+   "html": "<div class=\"chart\"><table><thead><tr><th></th><th>il</th><th>lo</th><th>l'</th><th>la</th><th>i</th><th>gli</th><th>le</th></tr></thead><tbody><tr><td>a</td><td>al</td><td>allo</td><td>all'</td><td>alla</td><td>ai</td><td>agli</td><td>alle</td></tr><tr><td>di</td><td>del</td><td>dello</td><td>dell'</td><td>della</td><td>dei</td><td>degli</td><td>delle</td></tr><tr><td>da</td><td>dal</td><td>dallo</td><td>dall'</td><td>dalla</td><td>dai</td><td>dagli</td><td>dalle</td></tr><tr><td>in</td><td>nel</td><td>nello</td><td>nell'</td><td>nella</td><td>nei</td><td>negli</td><td>nelle</td></tr><tr><td>su</td><td>sul</td><td>sullo</td><td>sull'</td><td>sulla</td><td>sui</td><td>sugli</td><td>sulle</td></tr></tbody></table></div><p class=\"hint\" style=\"margin:8px 0 0\">con, per, tra/fra don't join with the article: con il, per la, tra i.</p>"
+  }
+ ]
+}

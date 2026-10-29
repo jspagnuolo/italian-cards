@@ -1,0 +1,53 @@
+{
+ "updated": "2026-10-29",
+ "sets": [
+  {
+   "id": "nouns",
+   "file": "nouns.json",
+   "title": "Nouns",
+   "subtitle": "Every Level 1 and Level 2 noun: il/la, un/una, plural",
+   "order": 10,
+   "count": 1132
+  },
+  {
+   "id": "prepositions",
+   "file": "prepositions.json",
+   "title": "Prepositions",
+   "subtitle": "a, di, da, in, su with articles, plus con, per, tra/fra",
+   "order": 15,
+   "count": 43
+  },
+  {
+   "id": "verbs",
+   "file": "verbs.json",
+   "title": "Irregular & helping verbs",
+   "subtitle": "Lesson 2 verbs, every form, plus sentences",
+   "order": 20,
+   "count": 116
+  },
+  {
+   "id": "pronouns",
+   "file": "pronouns.json",
+   "title": "Pronouns",
+   "subtitle": "Direct, indirect, possessive, this/that",
+   "order": 30,
+   "count": 96
+  },
+  {
+   "id": "alimentari",
+   "file": "alimentari.json",
+   "title": "Alimentari",
+   "subtitle": "Amounts, packaging, counter talk",
+   "order": 40,
+   "count": 48
+  },
+  {
+   "id": "time-travel",
+   "file": "time-travel.json",
+   "title": "Time & travel",
+   "subtitle": "Clock, dates, directions, the station (Lesson 6)",
+   "order": 60,
+   "count": 200
+  }
+ ]
+}

@@ -1,0 +1,857 @@
+{
+ "id": "verbs",
+ "title": "Irregular & helping verbs",
+ "subtitle": "Lesson 2 verbs, every form, plus sentences",
+ "order": 20,
+ "defaultDir": "en",
+ "decks": {
+  "irr": {
+   "name": "Irregular verbs",
+   "short": "irregular",
+   "kind": "word",
+   "color": "c1",
+   "askEn": "Say the form",
+   "askIt": "Which verb and person?"
+  },
+  "mod": {
+   "name": "Helping verbs",
+   "short": "helping verb",
+   "kind": "word",
+   "color": "c2",
+   "askEn": "Say the form",
+   "askIt": "Which verb and person?"
+  },
+  "sent": {
+   "name": "Sentences",
+   "short": "sentence",
+   "kind": "sent",
+   "color": "cs",
+   "ask": "Say it in Italian"
+  }
+ },
+ "cards": [
+  {
+   "id": "andare-0",
+   "deck": "irr",
+   "it": "vado",
+   "en": "andare · io",
+   "ex": "I go"
+  },
+  {
+   "id": "andare-1",
+   "deck": "irr",
+   "it": "vai",
+   "en": "andare · tu",
+   "ex": "you go"
+  },
+  {
+   "id": "andare-2",
+   "deck": "irr",
+   "it": "va",
+   "en": "andare · lui / lei",
+   "ex": "he / she goes · also Lei (formal you)"
+  },
+  {
+   "id": "andare-3",
+   "deck": "irr",
+   "it": "andiamo",
+   "en": "andare · noi",
+   "ex": "we go"
+  },
+  {
+   "id": "andare-4",
+   "deck": "irr",
+   "it": "andate",
+   "en": "andare · voi",
+   "ex": "you all go"
+  },
+  {
+   "id": "andare-5",
+   "deck": "irr",
+   "it": "vanno",
+   "en": "andare · loro",
+   "ex": "they go"
+  },
+  {
+   "id": "venire-0",
+   "deck": "irr",
+   "it": "vengo",
+   "en": "venire · io",
+   "ex": "I come",
+   "note": "Io and loro add a g: vengo, vengono."
+  },
+  {
+   "id": "venire-1",
+   "deck": "irr",
+   "it": "vieni",
+   "en": "venire · tu",
+   "ex": "you come"
+  },
+  {
+   "id": "venire-2",
+   "deck": "irr",
+   "it": "viene",
+   "en": "venire · lui / lei",
+   "ex": "he / she comes · also Lei (formal you)"
+  },
+  {
+   "id": "venire-3",
+   "deck": "irr",
+   "it": "veniamo",
+   "en": "venire · noi",
+   "ex": "we come"
+  },
+  {
+   "id": "venire-4",
+   "deck": "irr",
+   "it": "venite",
+   "en": "venire · voi",
+   "ex": "you all come"
+  },
+  {
+   "id": "venire-5",
+   "deck": "irr",
+   "it": "vengono",
+   "en": "venire · loro",
+   "ex": "they come",
+   "note": "Io and loro add a g: vengo, vengono."
+  },
+  {
+   "id": "rimanere-0",
+   "deck": "irr",
+   "it": "rimango",
+   "en": "rimanere · io",
+   "ex": "I remain / stay",
+   "note": "Io and loro add a g: rimango, rimangono."
+  },
+  {
+   "id": "rimanere-1",
+   "deck": "irr",
+   "it": "rimani",
+   "en": "rimanere · tu",
+   "ex": "you remain / stay"
+  },
+  {
+   "id": "rimanere-2",
+   "deck": "irr",
+   "it": "rimane",
+   "en": "rimanere · lui / lei",
+   "ex": "he / she remains / stays · also Lei (formal you)"
+  },
+  {
+   "id": "rimanere-3",
+   "deck": "irr",
+   "it": "rimaniamo",
+   "en": "rimanere · noi",
+   "ex": "we remain / stay"
+  },
+  {
+   "id": "rimanere-4",
+   "deck": "irr",
+   "it": "rimanete",
+   "en": "rimanere · voi",
+   "ex": "you all remain / stay"
+  },
+  {
+   "id": "rimanere-5",
+   "deck": "irr",
+   "it": "rimangono",
+   "en": "rimanere · loro",
+   "ex": "they remain / stay",
+   "note": "Io and loro add a g: rimango, rimangono."
+  },
+  {
+   "id": "fare-0",
+   "deck": "irr",
+   "it": "faccio",
+   "en": "fare · io",
+   "ex": "I do / make"
+  },
+  {
+   "id": "fare-1",
+   "deck": "irr",
+   "it": "fai",
+   "en": "fare · tu",
+   "ex": "you do / make"
+  },
+  {
+   "id": "fare-2",
+   "deck": "irr",
+   "it": "fa",
+   "en": "fare · lui / lei",
+   "ex": "he / she does / makes · also Lei (formal you)"
+  },
+  {
+   "id": "fare-3",
+   "deck": "irr",
+   "it": "facciamo",
+   "en": "fare · noi",
+   "ex": "we do / make"
+  },
+  {
+   "id": "fare-4",
+   "deck": "irr",
+   "it": "fate",
+   "en": "fare · voi",
+   "ex": "you all do / make",
+   "note": "Fate, not facete."
+  },
+  {
+   "id": "fare-5",
+   "deck": "irr",
+   "it": "fanno",
+   "en": "fare · loro",
+   "ex": "they do / make"
+  },
+  {
+   "id": "stare-0",
+   "deck": "irr",
+   "it": "sto",
+   "en": "stare · io",
+   "ex": "I am (well) / stay"
+  },
+  {
+   "id": "stare-1",
+   "deck": "irr",
+   "it": "stai",
+   "en": "stare · tu",
+   "ex": "you am (well) / stay"
+  },
+  {
+   "id": "stare-2",
+   "deck": "irr",
+   "it": "sta",
+   "en": "stare · lui / lei",
+   "ex": "he / she is (well) / stays · also Lei (formal you)",
+   "note": "Come sta? = How are you? (formal)"
+  },
+  {
+   "id": "stare-3",
+   "deck": "irr",
+   "it": "stiamo",
+   "en": "stare · noi",
+   "ex": "we am (well) / stay"
+  },
+  {
+   "id": "stare-4",
+   "deck": "irr",
+   "it": "state",
+   "en": "stare · voi",
+   "ex": "you all am (well) / stay"
+  },
+  {
+   "id": "stare-5",
+   "deck": "irr",
+   "it": "stanno",
+   "en": "stare · loro",
+   "ex": "they am (well) / stay"
+  },
+  {
+   "id": "bere-0",
+   "deck": "irr",
+   "it": "bevo",
+   "en": "bere · io",
+   "ex": "I drink",
+   "note": "Bere works from the stem bev-."
+  },
+  {
+   "id": "bere-1",
+   "deck": "irr",
+   "it": "bevi",
+   "en": "bere · tu",
+   "ex": "you drink"
+  },
+  {
+   "id": "bere-2",
+   "deck": "irr",
+   "it": "beve",
+   "en": "bere · lui / lei",
+   "ex": "he / she drinks · also Lei (formal you)"
+  },
+  {
+   "id": "bere-3",
+   "deck": "irr",
+   "it": "beviamo",
+   "en": "bere · noi",
+   "ex": "we drink"
+  },
+  {
+   "id": "bere-4",
+   "deck": "irr",
+   "it": "bevete",
+   "en": "bere · voi",
+   "ex": "you all drink"
+  },
+  {
+   "id": "bere-5",
+   "deck": "irr",
+   "it": "bevono",
+   "en": "bere · loro",
+   "ex": "they drink"
+  },
+  {
+   "id": "scegliere-0",
+   "deck": "irr",
+   "it": "scelgo",
+   "en": "scegliere · io",
+   "ex": "I choose",
+   "note": "Io and loro flip to -lg-: scelgo, scelgono."
+  },
+  {
+   "id": "scegliere-1",
+   "deck": "irr",
+   "it": "scegli",
+   "en": "scegliere · tu",
+   "ex": "you choose"
+  },
+  {
+   "id": "scegliere-2",
+   "deck": "irr",
+   "it": "sceglie",
+   "en": "scegliere · lui / lei",
+   "ex": "he / she chooses · also Lei (formal you)"
+  },
+  {
+   "id": "scegliere-3",
+   "deck": "irr",
+   "it": "scegliamo",
+   "en": "scegliere · noi",
+   "ex": "we choose"
+  },
+  {
+   "id": "scegliere-4",
+   "deck": "irr",
+   "it": "scegliete",
+   "en": "scegliere · voi",
+   "ex": "you all choose"
+  },
+  {
+   "id": "scegliere-5",
+   "deck": "irr",
+   "it": "scelgono",
+   "en": "scegliere · loro",
+   "ex": "they choose",
+   "note": "Io and loro flip to -lg-: scelgo, scelgono."
+  },
+  {
+   "id": "dire-0",
+   "deck": "irr",
+   "it": "dico",
+   "en": "dire · io",
+   "ex": "I say / tell"
+  },
+  {
+   "id": "dire-1",
+   "deck": "irr",
+   "it": "dici",
+   "en": "dire · tu",
+   "ex": "you say / tell"
+  },
+  {
+   "id": "dire-2",
+   "deck": "irr",
+   "it": "dice",
+   "en": "dire · lui / lei",
+   "ex": "he / she says / tells · also Lei (formal you)"
+  },
+  {
+   "id": "dire-3",
+   "deck": "irr",
+   "it": "diciamo",
+   "en": "dire · noi",
+   "ex": "we say / tell"
+  },
+  {
+   "id": "dire-4",
+   "deck": "irr",
+   "it": "dite",
+   "en": "dire · voi",
+   "ex": "you all say / tell",
+   "note": "Dite, not dicete."
+  },
+  {
+   "id": "dire-5",
+   "deck": "irr",
+   "it": "dicono",
+   "en": "dire · loro",
+   "ex": "they say / tell"
+  },
+  {
+   "id": "uscire-0",
+   "deck": "irr",
+   "it": "esco",
+   "en": "uscire · io",
+   "ex": "I go out",
+   "note": "E- in io, tu, lui and loro. U- only in noi and voi."
+  },
+  {
+   "id": "uscire-1",
+   "deck": "irr",
+   "it": "esci",
+   "en": "uscire · tu",
+   "ex": "you go out"
+  },
+  {
+   "id": "uscire-2",
+   "deck": "irr",
+   "it": "esce",
+   "en": "uscire · lui / lei",
+   "ex": "he / she goes out · also Lei (formal you)"
+  },
+  {
+   "id": "uscire-3",
+   "deck": "irr",
+   "it": "usciamo",
+   "en": "uscire · noi",
+   "ex": "we go out",
+   "note": "U- only in noi and voi: usciamo, uscite."
+  },
+  {
+   "id": "uscire-4",
+   "deck": "irr",
+   "it": "uscite",
+   "en": "uscire · voi",
+   "ex": "you all go out"
+  },
+  {
+   "id": "uscire-5",
+   "deck": "irr",
+   "it": "escono",
+   "en": "uscire · loro",
+   "ex": "they go out"
+  },
+  {
+   "id": "salire-0",
+   "deck": "irr",
+   "it": "salgo",
+   "en": "salire · io",
+   "ex": "I get on / climb",
+   "note": "Io and loro add a g: salgo, salgono."
+  },
+  {
+   "id": "salire-1",
+   "deck": "irr",
+   "it": "sali",
+   "en": "salire · tu",
+   "ex": "you get on / climb"
+  },
+  {
+   "id": "salire-2",
+   "deck": "irr",
+   "it": "sale",
+   "en": "salire · lui / lei",
+   "ex": "he / she gets on / climbs · also Lei (formal you)"
+  },
+  {
+   "id": "salire-3",
+   "deck": "irr",
+   "it": "saliamo",
+   "en": "salire · noi",
+   "ex": "we get on / climb"
+  },
+  {
+   "id": "salire-4",
+   "deck": "irr",
+   "it": "salite",
+   "en": "salire · voi",
+   "ex": "you all get on / climb"
+  },
+  {
+   "id": "salire-5",
+   "deck": "irr",
+   "it": "salgono",
+   "en": "salire · loro",
+   "ex": "they get on / climb",
+   "note": "Io and loro add a g: salgo, salgono."
+  },
+  {
+   "id": "dare-0",
+   "deck": "irr",
+   "it": "do",
+   "en": "dare · io",
+   "ex": "I give"
+  },
+  {
+   "id": "dare-1",
+   "deck": "irr",
+   "it": "dai",
+   "en": "dare · tu",
+   "ex": "you give"
+  },
+  {
+   "id": "dare-2",
+   "deck": "irr",
+   "it": "dà",
+   "en": "dare · lui / lei",
+   "ex": "he / she gives · also Lei (formal you)",
+   "note": "The accent matters: dà = gives, da = from. (The handout prints it without the accent.)"
+  },
+  {
+   "id": "dare-3",
+   "deck": "irr",
+   "it": "diamo",
+   "en": "dare · noi",
+   "ex": "we give"
+  },
+  {
+   "id": "dare-4",
+   "deck": "irr",
+   "it": "date",
+   "en": "dare · voi",
+   "ex": "you all give"
+  },
+  {
+   "id": "dare-5",
+   "deck": "irr",
+   "it": "danno",
+   "en": "dare · loro",
+   "ex": "they give"
+  },
+  {
+   "id": "dovere-0",
+   "deck": "mod",
+   "it": "devo",
+   "en": "dovere · io",
+   "ex": "I must / have to"
+  },
+  {
+   "id": "dovere-1",
+   "deck": "mod",
+   "it": "devi",
+   "en": "dovere · tu",
+   "ex": "you must / have to"
+  },
+  {
+   "id": "dovere-2",
+   "deck": "mod",
+   "it": "deve",
+   "en": "dovere · lui / lei",
+   "ex": "he / she must / has to · also Lei (formal you)"
+  },
+  {
+   "id": "dovere-3",
+   "deck": "mod",
+   "it": "dobbiamo",
+   "en": "dovere · noi",
+   "ex": "we must / have to",
+   "note": "Dobbiamo, from the dov- stem."
+  },
+  {
+   "id": "dovere-4",
+   "deck": "mod",
+   "it": "dovete",
+   "en": "dovere · voi",
+   "ex": "you all must / have to"
+  },
+  {
+   "id": "dovere-5",
+   "deck": "mod",
+   "it": "devono",
+   "en": "dovere · loro",
+   "ex": "they must / have to"
+  },
+  {
+   "id": "volere-0",
+   "deck": "mod",
+   "it": "voglio",
+   "en": "volere · io",
+   "ex": "I want",
+   "note": "In a shop, vorrei (I would like) sounds more polite than voglio."
+  },
+  {
+   "id": "volere-1",
+   "deck": "mod",
+   "it": "vuoi",
+   "en": "volere · tu",
+   "ex": "you want"
+  },
+  {
+   "id": "volere-2",
+   "deck": "mod",
+   "it": "vuole",
+   "en": "volere · lui / lei",
+   "ex": "he / she wants · also Lei (formal you)"
+  },
+  {
+   "id": "volere-3",
+   "deck": "mod",
+   "it": "vogliamo",
+   "en": "volere · noi",
+   "ex": "we want"
+  },
+  {
+   "id": "volere-4",
+   "deck": "mod",
+   "it": "volete",
+   "en": "volere · voi",
+   "ex": "you all want"
+  },
+  {
+   "id": "volere-5",
+   "deck": "mod",
+   "it": "vogliono",
+   "en": "volere · loro",
+   "ex": "they want"
+  },
+  {
+   "id": "potere-0",
+   "deck": "mod",
+   "it": "posso",
+   "en": "potere · io",
+   "ex": "I can"
+  },
+  {
+   "id": "potere-1",
+   "deck": "mod",
+   "it": "puoi",
+   "en": "potere · tu",
+   "ex": "you can"
+  },
+  {
+   "id": "potere-2",
+   "deck": "mod",
+   "it": "può",
+   "en": "potere · lui / lei",
+   "ex": "he / she can · also Lei (formal you)",
+   "note": "Può has an accent."
+  },
+  {
+   "id": "potere-3",
+   "deck": "mod",
+   "it": "possiamo",
+   "en": "potere · noi",
+   "ex": "we can"
+  },
+  {
+   "id": "potere-4",
+   "deck": "mod",
+   "it": "potete",
+   "en": "potere · voi",
+   "ex": "you all can"
+  },
+  {
+   "id": "potere-5",
+   "deck": "mod",
+   "it": "possono",
+   "en": "potere · loro",
+   "ex": "they can"
+  },
+  {
+   "id": "sapere-0",
+   "deck": "mod",
+   "it": "so",
+   "en": "sapere · io",
+   "ex": "I know (how to)",
+   "note": "Non lo so = I don't know."
+  },
+  {
+   "id": "sapere-1",
+   "deck": "mod",
+   "it": "sai",
+   "en": "sapere · tu",
+   "ex": "you know (how to)"
+  },
+  {
+   "id": "sapere-2",
+   "deck": "mod",
+   "it": "sa",
+   "en": "sapere · lui / lei",
+   "ex": "he / she knows (how to) · also Lei (formal you)"
+  },
+  {
+   "id": "sapere-3",
+   "deck": "mod",
+   "it": "sappiamo",
+   "en": "sapere · noi",
+   "ex": "we know (how to)"
+  },
+  {
+   "id": "sapere-4",
+   "deck": "mod",
+   "it": "sapete",
+   "en": "sapere · voi",
+   "ex": "you all know (how to)"
+  },
+  {
+   "id": "sapere-5",
+   "deck": "mod",
+   "it": "sanno",
+   "en": "sapere · loro",
+   "ex": "they know (how to)"
+  },
+  {
+   "id": "vs-usciamo",
+   "deck": "sent",
+   "q": "We're going out tonight.",
+   "a": "Usciamo stasera."
+  },
+  {
+   "id": "vs-dadove",
+   "deck": "sent",
+   "q": "Where are you from? (tu, with venire)",
+   "a": "Da dove vieni?",
+   "note": "Di dove sei? means the same thing."
+  },
+  {
+   "id": "vs-signora",
+   "deck": "sent",
+   "q": "Madam, are you coming with us?",
+   "a": "Signora, viene con noi?",
+   "note": "Formal Lei uses the lui/lei form."
+  },
+  {
+   "id": "vs-rimango",
+   "deck": "sent",
+   "q": "I'm staying in Rome for a week.",
+   "a": "Rimango a Roma per una settimana."
+  },
+  {
+   "id": "vs-fai",
+   "deck": "sent",
+   "q": "What are you doing tomorrow? (tu)",
+   "a": "Cosa fai domani?"
+  },
+  {
+   "id": "vs-vanno",
+   "deck": "sent",
+   "q": "They're going to Florence by train.",
+   "a": "Vanno a Firenze in treno.",
+   "note": "Cities take a. By train is in treno."
+  },
+  {
+   "id": "vs-salgo",
+   "deck": "sent",
+   "q": "I'm getting on the bus.",
+   "a": "Salgo sull'autobus.",
+   "note": "Salire su + the article: su + l' = sull'."
+  },
+  {
+   "id": "vs-beviamo",
+   "deck": "sent",
+   "q": "We drink an espresso after lunch.",
+   "a": "Beviamo un caffè dopo pranzo.",
+   "note": "Un caffè in Italy is an espresso."
+  },
+  {
+   "id": "vs-chedici",
+   "deck": "sent",
+   "q": "What do you say? Shall we go? (tu)",
+   "a": "Che dici? Andiamo?"
+  },
+  {
+   "id": "vs-do",
+   "deck": "sent",
+   "q": "I give the tip to the waiter.",
+   "a": "Do la mancia al cameriere."
+  },
+  {
+   "id": "vs-comesta",
+   "deck": "sent",
+   "q": "How are you? (formal)",
+   "a": "Come sta?",
+   "note": "Informal: Come stai?"
+  },
+  {
+   "id": "vs-scelgo",
+   "deck": "sent",
+   "q": "I'm choosing the chocolate cake.",
+   "a": "Scelgo la torta al cioccolato."
+  },
+  {
+   "id": "vs-luca",
+   "deck": "sent",
+   "q": "Today Luca is staying home.",
+   "a": "Oggi Luca sta a casa.",
+   "note": "Rimane a casa also works."
+  },
+  {
+   "id": "vs-spesa",
+   "deck": "sent",
+   "q": "I'm doing the grocery shopping.",
+   "a": "Faccio la spesa."
+  },
+  {
+   "id": "vs-caldo",
+   "deck": "sent",
+   "q": "It's hot today.",
+   "a": "Oggi fa caldo.",
+   "note": "Weather uses fare: fa caldo, fa freddo, fa bel tempo."
+  },
+  {
+   "id": "vs-dicono",
+   "deck": "sent",
+   "q": "They say Rome is beautiful.",
+   "a": "Dicono che Roma è bellissima."
+  },
+  {
+   "id": "vs-beve",
+   "deck": "sent",
+   "q": "He drinks too much coffee.",
+   "a": "Beve troppo caffè."
+  },
+  {
+   "id": "vs-escono",
+   "deck": "sent",
+   "q": "The girls go out every Friday.",
+   "a": "Le ragazze escono ogni venerdì."
+  },
+  {
+   "id": "vs-devo",
+   "deck": "sent",
+   "q": "I have to go.",
+   "a": "Devo andare.",
+   "note": "Modal + infinitive, with no word for “to”."
+  },
+  {
+   "id": "vs-vuoi",
+   "deck": "sent",
+   "q": "Do you want to come with us? (tu)",
+   "a": "Vuoi venire con noi?"
+  },
+  {
+   "id": "vs-potete",
+   "deck": "sent",
+   "q": "Can you all come on Saturday?",
+   "a": "Potete venire sabato?"
+  },
+  {
+   "id": "vs-sai",
+   "deck": "sent",
+   "q": "Do you know how to cook? (tu)",
+   "a": "Sai cucinare?",
+   "note": "Sapere + infinitive = know how to."
+  },
+  {
+   "id": "vs-possiamo",
+   "deck": "sent",
+   "q": "We can't stay.",
+   "a": "Non possiamo rimanere."
+  },
+  {
+   "id": "vs-vogliono",
+   "deck": "sent",
+   "q": "They want to go out tonight.",
+   "a": "Vogliono uscire stasera."
+  },
+  {
+   "id": "vs-nonloso",
+   "deck": "sent",
+   "q": "I don't know.",
+   "a": "Non lo so.",
+   "note": "The lo is part of the everyday phrase."
+  },
+  {
+   "id": "vs-deve",
+   "deck": "sent",
+   "q": "Sir, do you have to leave tomorrow?",
+   "a": "Signore, deve partire domani?",
+   "note": "Formal Lei → deve."
+  }
+ ],
+ "refs": [
+  {
+   "title": "The conjugation chart",
+   "html": "<div class=\"tblwrap\"><table class=\"ref\">\n  <thead><tr><th>Verb</th><th>io</th><th>tu</th><th>lui / lei</th><th>noi</th><th>voi</th><th>loro</th><th>Meaning</th></tr></thead>\n  <tbody><tr><td class=\"k c1\">andare</td><td>vado</td><td>vai</td><td>va</td><td>andiamo</td><td>andate</td><td>vanno</td><td>go</td></tr><tr><td class=\"k c1\">venire</td><td>vengo</td><td>vieni</td><td>viene</td><td>veniamo</td><td>venite</td><td>vengono</td><td>come</td></tr><tr><td class=\"k c1\">rimanere</td><td>rimango</td><td>rimani</td><td>rimane</td><td>rimaniamo</td><td>rimanete</td><td>rimangono</td><td>remain / stay</td></tr><tr><td class=\"k c1\">fare</td><td>faccio</td><td>fai</td><td>fa</td><td>facciamo</td><td>fate</td><td>fanno</td><td>do / make</td></tr><tr><td class=\"k c1\">stare</td><td>sto</td><td>stai</td><td>sta</td><td>stiamo</td><td>state</td><td>stanno</td><td>am (well) / stay</td></tr><tr><td class=\"k c1\">bere</td><td>bevo</td><td>bevi</td><td>beve</td><td>beviamo</td><td>bevete</td><td>bevono</td><td>drink</td></tr><tr><td class=\"k c1\">scegliere</td><td>scelgo</td><td>scegli</td><td>sceglie</td><td>scegliamo</td><td>scegliete</td><td>scelgono</td><td>choose</td></tr><tr><td class=\"k c1\">dire</td><td>dico</td><td>dici</td><td>dice</td><td>diciamo</td><td>dite</td><td>dicono</td><td>say / tell</td></tr><tr><td class=\"k c1\">uscire</td><td>esco</td><td>esci</td><td>esce</td><td>usciamo</td><td>uscite</td><td>escono</td><td>go out</td></tr><tr><td class=\"k c1\">salire</td><td>salgo</td><td>sali</td><td>sale</td><td>saliamo</td><td>salite</td><td>salgono</td><td>get on / climb</td></tr><tr><td class=\"k c1\">dare</td><td>do</td><td>dai</td><td>dà</td><td>diamo</td><td>date</td><td>danno</td><td>give</td></tr><tr><td class=\"k c2\">dovere</td><td>devo</td><td>devi</td><td>deve</td><td>dobbiamo</td><td>dovete</td><td>devono</td><td>must / have to</td></tr><tr><td class=\"k c2\">volere</td><td>voglio</td><td>vuoi</td><td>vuole</td><td>vogliamo</td><td>volete</td><td>vogliono</td><td>want</td></tr><tr><td class=\"k c2\">potere</td><td>posso</td><td>puoi</td><td>può</td><td>possiamo</td><td>potete</td><td>possono</td><td>can</td></tr><tr><td class=\"k c2\">sapere</td><td>so</td><td>sai</td><td>sa</td><td>sappiamo</td><td>sapete</td><td>sanno</td><td>know (how to)</td></tr></tbody>\n</table></div>\n<p class=\"reftip\">Patterns that cover several verbs: <b>io and loro add a g</b> (vengo, rimango, salgo, scelgo). Helping verbs are followed straight by the infinitive: <b>devo andare</b>, <b>posso venire</b>, <b>so cucinare</b>.</p>"
+  }
+ ]
+}

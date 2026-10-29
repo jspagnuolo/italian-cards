@@ -1,0 +1,349 @@
+{
+ "id": "alimentari",
+ "title": "Alimentari",
+ "subtitle": "Amounts, packaging, counter talk",
+ "order": 40,
+ "defaultDir": "en",
+ "decks": {
+  "amt": {
+   "name": "Amounts",
+   "short": "amount",
+   "kind": "word",
+   "color": "c3",
+   "askEn": "Say it in Italian",
+   "askIt": "What does this mean?"
+  },
+  "cnt": {
+   "name": "At the counter",
+   "short": "counter",
+   "kind": "word",
+   "color": "c1",
+   "askEn": "Say it in Italian",
+   "askIt": "What does this mean?"
+  },
+  "phr": {
+   "name": "Phrases",
+   "short": "phrase",
+   "kind": "sent",
+   "color": "cs",
+   "ask": "Say it in Italian (formal, with Lei)"
+  }
+ },
+ "cards": [
+  {
+   "id": "am-etto",
+   "deck": "amt",
+   "it": "un etto",
+   "en": "100 grams (about ¼ lb)",
+   "ex": "Due <b>etti</b> di prosciutto, per favore.",
+   "note": "The usual unit at the deli counter. Plural: etti."
+  },
+  {
+   "id": "am-mezzochilo",
+   "deck": "amt",
+   "it": "mezzo chilo",
+   "en": "half a kilo (500 g, about 1.1 lb)"
+  },
+  {
+   "id": "am-chilo",
+   "deck": "amt",
+   "it": "un chilo",
+   "en": "a kilo (about 2.2 lb)"
+  },
+  {
+   "id": "am-fetta",
+   "deck": "amt",
+   "it": "una fetta",
+   "en": "a slice",
+   "ex": "Sei <b>fette</b> di mortadella.",
+   "note": "Plural: fette."
+  },
+  {
+   "id": "am-pezzo",
+   "deck": "amt",
+   "it": "un pezzo di parmigiano",
+   "en": "a piece of parmesan"
+  },
+  {
+   "id": "am-unpo",
+   "deck": "amt",
+   "it": "un po' di pane",
+   "en": "a little bread / some bread",
+   "note": "Un po' di = a bit of, some."
+  },
+  {
+   "id": "am-litro",
+   "deck": "amt",
+   "it": "un litro di latte",
+   "en": "a liter of milk"
+  },
+  {
+   "id": "am-bottiglia-vino",
+   "deck": "amt",
+   "it": "una bottiglia di vino",
+   "en": "a bottle of wine"
+  },
+  {
+   "id": "am-bottiglia-olio",
+   "deck": "amt",
+   "it": "una bottiglia d'olio",
+   "en": "a bottle of oil",
+   "note": "Di + olio → d'olio."
+  },
+  {
+   "id": "am-lattina",
+   "deck": "amt",
+   "it": "una lattina di aranciata",
+   "en": "a can of orange soda",
+   "note": "Lattina is a drink can."
+  },
+  {
+   "id": "am-scatoletta",
+   "deck": "amt",
+   "it": "una scatoletta di tonno",
+   "en": "a can of tuna",
+   "note": "Scatoletta is a small flat tin, for tuna and the like."
+  },
+  {
+   "id": "am-scatola",
+   "deck": "amt",
+   "it": "una scatola di cioccolatini",
+   "en": "a box of chocolates"
+  },
+  {
+   "id": "am-pacco",
+   "deck": "amt",
+   "it": "un pacco di pasta",
+   "en": "a pack of pasta"
+  },
+  {
+   "id": "am-barattolo",
+   "deck": "amt",
+   "it": "un barattolo di marmellata",
+   "en": "a jar of jam"
+  },
+  {
+   "id": "am-vasetto",
+   "deck": "amt",
+   "it": "un vasetto di yogurt",
+   "en": "a cup of yogurt"
+  },
+  {
+   "id": "am-tubetto",
+   "deck": "amt",
+   "it": "un tubetto di maionese",
+   "en": "a tube of mayonnaise"
+  },
+  {
+   "id": "am-confezione",
+   "deck": "amt",
+   "it": "una confezione di uova",
+   "en": "a carton of eggs",
+   "note": "Un uovo, but le uova: the plural turns feminine."
+  },
+  {
+   "id": "am-filone",
+   "deck": "amt",
+   "it": "un filone di pane",
+   "en": "a loaf of bread"
+  },
+  {
+   "id": "am-sacchetto",
+   "deck": "amt",
+   "it": "un sacchetto",
+   "en": "a bag (shopping bag)"
+  },
+  {
+   "id": "ct-affettati",
+   "deck": "cnt",
+   "it": "gli affettati",
+   "en": "cold cuts"
+  },
+  {
+   "id": "ct-crudo",
+   "deck": "cnt",
+   "it": "il prosciutto crudo",
+   "en": "cured ham (prosciutto)",
+   "note": "Crudo = raw, cured, not cooked."
+  },
+  {
+   "id": "ct-cotto",
+   "deck": "cnt",
+   "it": "il prosciutto cotto",
+   "en": "cooked ham"
+  },
+  {
+   "id": "ct-salame",
+   "deck": "cnt",
+   "it": "il salame",
+   "en": "salami"
+  },
+  {
+   "id": "ct-porchetta",
+   "deck": "cnt",
+   "it": "la porchetta",
+   "en": "roast pork with herbs"
+  },
+  {
+   "id": "ct-formaggio",
+   "deck": "cnt",
+   "it": "il formaggio",
+   "en": "cheese"
+  },
+  {
+   "id": "ct-pecorino",
+   "deck": "cnt",
+   "it": "il pecorino",
+   "en": "pecorino (sheep's milk cheese)"
+  },
+  {
+   "id": "ct-stagionato",
+   "deck": "cnt",
+   "it": "stagionato",
+   "en": "aged",
+   "ex": "un pecorino <b>stagionato</b>"
+  },
+  {
+   "id": "ct-fresco",
+   "deck": "cnt",
+   "it": "fresco",
+   "en": "fresh",
+   "ex": "pane <b>fresco</b>",
+   "note": "fresco, fresca, freschi, fresche"
+  },
+  {
+   "id": "ct-olive",
+   "deck": "cnt",
+   "it": "le olive",
+   "en": "olives"
+  },
+  {
+   "id": "ct-sottile",
+   "deck": "cnt",
+   "it": "sottile",
+   "en": "thin",
+   "ex": "affettato <b>sottile</b> = thinly sliced"
+  },
+  {
+   "id": "ct-spesso",
+   "deck": "cnt",
+   "it": "spesso",
+   "en": "thick",
+   "note": "Spesso also means “often”."
+  },
+  {
+   "id": "ct-rosso",
+   "deck": "cnt",
+   "it": "il vino rosso",
+   "en": "red wine"
+  },
+  {
+   "id": "ct-bianco",
+   "deck": "cnt",
+   "it": "il vino bianco",
+   "en": "white wine"
+  },
+  {
+   "id": "ct-buonissimo",
+   "deck": "cnt",
+   "it": "buonissimo",
+   "en": "really good, delicious",
+   "ex": "È <b>buonissimo</b>!"
+  },
+  {
+   "id": "ph-desidera",
+   "deck": "phr",
+   "q": "(Clerk) What would you like?",
+   "a": "Desidera? / Mi dica.",
+   "note": "Both are formal. Mi dica means “tell me”."
+  },
+  {
+   "id": "ph-ultimo",
+   "deck": "phr",
+   "q": "Who's last in line?",
+   "a": "Chi è l'ultimo?",
+   "note": "Ask this when you walk in, so you know whose turn comes before yours."
+  },
+  {
+   "id": "ph-tocca",
+   "deck": "phr",
+   "q": "Is it my turn?",
+   "a": "Tocca a me?",
+   "note": "The clerk's version: Tocca a Lei."
+  },
+  {
+   "id": "ph-vorrei",
+   "deck": "phr",
+   "q": "I'd like two etti of salami.",
+   "a": "Vorrei due etti di salame.",
+   "note": "Vorrei is the polite “I'd like”."
+  },
+  {
+   "id": "ph-sottile",
+   "deck": "phr",
+   "q": "Thinly sliced, please.",
+   "a": "Affettato sottile, per favore."
+  },
+  {
+   "id": "ph-piumeno",
+   "deck": "phr",
+   "q": "A little more. / A little less.",
+   "a": "Un po' di più. / Un po' di meno."
+  },
+  {
+   "id": "ph-vabene",
+   "deck": "phr",
+   "q": "(Clerk: It's a bit over, is that OK?) That's fine.",
+   "a": "Va bene così."
+  },
+  {
+   "id": "ph-altro",
+   "deck": "phr",
+   "q": "(Clerk) Anything else?",
+   "a": "Altro?"
+  },
+  {
+   "id": "ph-basta",
+   "deck": "phr",
+   "q": "That's all, thanks.",
+   "a": "Basta così, grazie."
+  },
+  {
+   "id": "ph-quante",
+   "deck": "phr",
+   "q": "How much is it? (the total)",
+   "a": "Quant'è?"
+  },
+  {
+   "id": "ph-carta",
+   "deck": "phr",
+   "q": "Can I pay by card?",
+   "a": "Posso pagare con la carta?"
+  },
+  {
+   "id": "ph-sacchetto",
+   "deck": "phr",
+   "q": "(Clerk) Do you need a bag?",
+   "a": "Le serve un sacchetto?",
+   "note": "Le = to you (formal). Servire works like piacere."
+  },
+  {
+   "id": "ph-scontrino",
+   "deck": "phr",
+   "q": "the receipt · the change",
+   "a": "lo scontrino · il resto"
+  },
+  {
+   "id": "ph-fresco",
+   "deck": "phr",
+   "q": "Is it fresh? (the bread)",
+   "a": "È fresco?"
+  }
+ ],
+ "refs": [
+  {
+   "title": "Weights and measures",
+   "html": "<div class=\"tblwrap\"><table class=\"ref\">\n  <thead><tr><th>Italian</th><th>Metric</th><th>US</th></tr></thead>\n  <tbody>\n    <tr><td class=\"k c3\">un etto</td><td>100 g</td><td>about 0.22 lb (¼ lb)</td></tr>\n    <tr><td class=\"k c3\">due etti</td><td>200 g</td><td>about 0.44 lb (just under ½ lb)</td></tr>\n    <tr><td class=\"k c3\">mezzo chilo</td><td>500 g</td><td>about 1.1 lb</td></tr>\n    <tr><td class=\"k c3\">un chilo</td><td>1 kg</td><td>about 2.2 lb</td></tr>\n    <tr><td class=\"k c3\">un litro</td><td>1 l</td><td>about 1.06 quarts</td></tr>\n    <tr><td class=\"k c3\">una lattina</td><td>330 ml</td><td>about 11.2 oz</td></tr>\n  </tbody>\n</table></div>\n<p class=\"reftip\">One pound is about <b>4½ etti</b>. Cheese, olives and cold cuts are sold by the etto; bread by the piece or the loaf.</p>"
+  }
+ ]
+}
