@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-11-06",
  "sets": [
   {
    "id": "nouns",
@@ -48,6 +48,14 @@
    "subtitle": "Clock, dates, directions, the station (Lesson 6)",
    "order": 60,
    "count": 200
+  },
+  {
+   "id": "ristorante",
+   "file": "ristorante.json",
+   "title": "Al ristorante",
+   "subtitle": "Present continuous, the menu, ordering, dining customs (Lesson 7)",
+   "order": 70,
+   "count": 179
   }
  ]
 }

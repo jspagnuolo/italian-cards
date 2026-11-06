@@ -1,0 +1,1284 @@
+{
+ "id": "ristorante",
+ "title": "Al ristorante",
+ "subtitle": "Present continuous, the menu, ordering, dining customs (Lesson 7)",
+ "order": 70,
+ "defaultDir": "en",
+ "decks": {
+  "sta": {
+   "name": "Stare",
+   "short": "stare",
+   "kind": "word",
+   "color": "c1",
+   "askEn": "Say the form",
+   "askIt": "Which person?"
+  },
+  "tab": {
+   "name": "Sto + -ando / -endo",
+   "short": "continuous",
+   "kind": "word",
+   "color": "c2",
+   "askEn": "Say it: stare + -ando / -endo",
+   "askIt": "Which verb and person?"
+  },
+  "ger": {
+   "name": "-ing forms",
+   "short": "-ing",
+   "kind": "word",
+   "color": "c3",
+   "askEn": "Give the -ando / -endo form",
+   "askIt": "Which verb?"
+  },
+  "now": {
+   "name": "Now or later?",
+   "short": "now/later",
+   "kind": "sent",
+   "color": "c4",
+   "ask": "Say it in Italian: stare + -ando, or plain present?"
+  },
+  "men": {
+   "name": "Menu & restaurant words",
+   "short": "word",
+   "kind": "word",
+   "color": "c1",
+   "askEn": "Say it in Italian",
+   "askIt": "What does this mean?"
+  },
+  "phr": {
+   "name": "At the table (formal)",
+   "short": "phrase",
+   "kind": "sent",
+   "color": "cs",
+   "ask": "Say it in Italian (formal, with Lei)"
+  },
+  "cus": {
+   "name": "Dining customs",
+   "short": "custom",
+   "kind": "sent",
+   "color": "c3",
+   "ask": "What's the custom in Italy?"
+  }
+ },
+ "cards": [
+  {
+   "id": "pc-stare-0",
+   "deck": "sta",
+   "it": "sto",
+   "en": "stare · io",
+   "ex": "I am … (+ -ando / -endo)"
+  },
+  {
+   "id": "pc-stare-1",
+   "deck": "sta",
+   "it": "stai",
+   "en": "stare · tu",
+   "ex": "you are … (+ -ando / -endo)"
+  },
+  {
+   "id": "pc-stare-2",
+   "deck": "sta",
+   "it": "sta",
+   "en": "stare · lui / lei",
+   "ex": "he / she is … (+ -ando / -endo)",
+   "note": "Also Lei (formal you): Sta cercando qualcosa?"
+  },
+  {
+   "id": "pc-stare-3",
+   "deck": "sta",
+   "it": "stiamo",
+   "en": "stare · noi",
+   "ex": "we are … (+ -ando / -endo)"
+  },
+  {
+   "id": "pc-stare-4",
+   "deck": "sta",
+   "it": "state",
+   "en": "stare · voi",
+   "ex": "you all are … (+ -ando / -endo)"
+  },
+  {
+   "id": "pc-stare-5",
+   "deck": "sta",
+   "it": "stanno",
+   "en": "stare · loro",
+   "ex": "they are … (+ -ando / -endo)"
+  },
+  {
+   "id": "pc-cucinare-0",
+   "deck": "tab",
+   "it": "sto cucinando",
+   "en": "cucinare · io",
+   "ex": "I am cooking"
+  },
+  {
+   "id": "pc-cucinare-1",
+   "deck": "tab",
+   "it": "stai cucinando",
+   "en": "cucinare · tu",
+   "ex": "you are cooking"
+  },
+  {
+   "id": "pc-cucinare-2",
+   "deck": "tab",
+   "it": "sta cucinando",
+   "en": "cucinare · lui / lei",
+   "ex": "he / she is cooking"
+  },
+  {
+   "id": "pc-cucinare-3",
+   "deck": "tab",
+   "it": "stiamo cucinando",
+   "en": "cucinare · noi",
+   "ex": "we are cooking"
+  },
+  {
+   "id": "pc-cucinare-4",
+   "deck": "tab",
+   "it": "state cucinando",
+   "en": "cucinare · voi",
+   "ex": "you all are cooking"
+  },
+  {
+   "id": "pc-cucinare-5",
+   "deck": "tab",
+   "it": "stanno cucinando",
+   "en": "cucinare · loro",
+   "ex": "they are cooking"
+  },
+  {
+   "id": "pc-leggere-0",
+   "deck": "tab",
+   "it": "sto leggendo",
+   "en": "leggere · io",
+   "ex": "I am reading"
+  },
+  {
+   "id": "pc-leggere-1",
+   "deck": "tab",
+   "it": "stai leggendo",
+   "en": "leggere · tu",
+   "ex": "you are reading"
+  },
+  {
+   "id": "pc-leggere-2",
+   "deck": "tab",
+   "it": "sta leggendo",
+   "en": "leggere · lui / lei",
+   "ex": "he / she is reading"
+  },
+  {
+   "id": "pc-leggere-3",
+   "deck": "tab",
+   "it": "stiamo leggendo",
+   "en": "leggere · noi",
+   "ex": "we are reading"
+  },
+  {
+   "id": "pc-leggere-4",
+   "deck": "tab",
+   "it": "state leggendo",
+   "en": "leggere · voi",
+   "ex": "you all are reading"
+  },
+  {
+   "id": "pc-leggere-5",
+   "deck": "tab",
+   "it": "stanno leggendo",
+   "en": "leggere · loro",
+   "ex": "they are reading"
+  },
+  {
+   "id": "pc-dormire-0",
+   "deck": "tab",
+   "it": "sto dormendo",
+   "en": "dormire · io",
+   "ex": "I am sleeping"
+  },
+  {
+   "id": "pc-dormire-1",
+   "deck": "tab",
+   "it": "stai dormendo",
+   "en": "dormire · tu",
+   "ex": "you are sleeping"
+  },
+  {
+   "id": "pc-dormire-2",
+   "deck": "tab",
+   "it": "sta dormendo",
+   "en": "dormire · lui / lei",
+   "ex": "he / she is sleeping"
+  },
+  {
+   "id": "pc-dormire-3",
+   "deck": "tab",
+   "it": "stiamo dormendo",
+   "en": "dormire · noi",
+   "ex": "we are sleeping"
+  },
+  {
+   "id": "pc-dormire-4",
+   "deck": "tab",
+   "it": "state dormendo",
+   "en": "dormire · voi",
+   "ex": "you all are sleeping"
+  },
+  {
+   "id": "pc-dormire-5",
+   "deck": "tab",
+   "it": "stanno dormendo",
+   "en": "dormire · loro",
+   "ex": "they are sleeping"
+  },
+  {
+   "id": "pc-fare-0",
+   "deck": "tab",
+   "it": "sto facendo",
+   "en": "fare · io",
+   "ex": "I am doing / making",
+   "note": "Irregular: from the old Latin stem fac-, not fando."
+  },
+  {
+   "id": "pc-fare-1",
+   "deck": "tab",
+   "it": "stai facendo",
+   "en": "fare · tu",
+   "ex": "you are doing / making"
+  },
+  {
+   "id": "pc-fare-2",
+   "deck": "tab",
+   "it": "sta facendo",
+   "en": "fare · lui / lei",
+   "ex": "he / she is doing / making"
+  },
+  {
+   "id": "pc-fare-3",
+   "deck": "tab",
+   "it": "stiamo facendo",
+   "en": "fare · noi",
+   "ex": "we are doing / making"
+  },
+  {
+   "id": "pc-fare-4",
+   "deck": "tab",
+   "it": "state facendo",
+   "en": "fare · voi",
+   "ex": "you all are doing / making"
+  },
+  {
+   "id": "pc-fare-5",
+   "deck": "tab",
+   "it": "stanno facendo",
+   "en": "fare · loro",
+   "ex": "they are doing / making"
+  },
+  {
+   "id": "pc-bere-0",
+   "deck": "tab",
+   "it": "sto bevendo",
+   "en": "bere · io",
+   "ex": "I am drinking",
+   "note": "Irregular: from bev- (like bevo), not bendo."
+  },
+  {
+   "id": "pc-bere-1",
+   "deck": "tab",
+   "it": "stai bevendo",
+   "en": "bere · tu",
+   "ex": "you are drinking"
+  },
+  {
+   "id": "pc-bere-2",
+   "deck": "tab",
+   "it": "sta bevendo",
+   "en": "bere · lui / lei",
+   "ex": "he / she is drinking"
+  },
+  {
+   "id": "pc-bere-3",
+   "deck": "tab",
+   "it": "stiamo bevendo",
+   "en": "bere · noi",
+   "ex": "we are drinking"
+  },
+  {
+   "id": "pc-bere-4",
+   "deck": "tab",
+   "it": "state bevendo",
+   "en": "bere · voi",
+   "ex": "you all are drinking"
+  },
+  {
+   "id": "pc-bere-5",
+   "deck": "tab",
+   "it": "stanno bevendo",
+   "en": "bere · loro",
+   "ex": "they are drinking"
+  },
+  {
+   "id": "pc-dire-0",
+   "deck": "tab",
+   "it": "sto dicendo",
+   "en": "dire · io",
+   "ex": "I am saying / telling",
+   "note": "Irregular: from dic- (like dico), not dendo."
+  },
+  {
+   "id": "pc-dire-1",
+   "deck": "tab",
+   "it": "stai dicendo",
+   "en": "dire · tu",
+   "ex": "you are saying / telling"
+  },
+  {
+   "id": "pc-dire-2",
+   "deck": "tab",
+   "it": "sta dicendo",
+   "en": "dire · lui / lei",
+   "ex": "he / she is saying / telling"
+  },
+  {
+   "id": "pc-dire-3",
+   "deck": "tab",
+   "it": "stiamo dicendo",
+   "en": "dire · noi",
+   "ex": "we are saying / telling"
+  },
+  {
+   "id": "pc-dire-4",
+   "deck": "tab",
+   "it": "state dicendo",
+   "en": "dire · voi",
+   "ex": "you all are saying / telling"
+  },
+  {
+   "id": "pc-dire-5",
+   "deck": "tab",
+   "it": "stanno dicendo",
+   "en": "dire · loro",
+   "ex": "they are saying / telling"
+  },
+  {
+   "id": "pc-g-guardare",
+   "deck": "ger",
+   "it": "guardando",
+   "en": "guardare → -ing",
+   "ex": "watching"
+  },
+  {
+   "id": "pc-g-ascoltare",
+   "deck": "ger",
+   "it": "ascoltando",
+   "en": "ascoltare → -ing",
+   "ex": "listening"
+  },
+  {
+   "id": "pc-g-preparare",
+   "deck": "ger",
+   "it": "preparando",
+   "en": "preparare → -ing",
+   "ex": "preparing"
+  },
+  {
+   "id": "pc-g-ordinare",
+   "deck": "ger",
+   "it": "ordinando",
+   "en": "ordinare → -ing",
+   "ex": "ordering"
+  },
+  {
+   "id": "pc-g-cercare",
+   "deck": "ger",
+   "it": "cercando",
+   "en": "cercare → -ing",
+   "ex": "looking for",
+   "note": "No h needed: -ando follows a, so cercando, not cerchando."
+  },
+  {
+   "id": "pc-g-pagare",
+   "deck": "ger",
+   "it": "pagando",
+   "en": "pagare → -ing",
+   "ex": "paying"
+  },
+  {
+   "id": "pc-g-assaggiare",
+   "deck": "ger",
+   "it": "assaggiando",
+   "en": "assaggiare → -ing",
+   "ex": "tasting"
+  },
+  {
+   "id": "pc-g-festeggiare",
+   "deck": "ger",
+   "it": "festeggiando",
+   "en": "festeggiare → -ing",
+   "ex": "celebrating"
+  },
+  {
+   "id": "pc-g-tagliare",
+   "deck": "ger",
+   "it": "tagliando",
+   "en": "tagliare → -ing",
+   "ex": "cutting"
+  },
+  {
+   "id": "pc-g-pensare",
+   "deck": "ger",
+   "it": "pensando",
+   "en": "pensare → -ing",
+   "ex": "thinking"
+  },
+  {
+   "id": "pc-g-prendere",
+   "deck": "ger",
+   "it": "prendendo",
+   "en": "prendere → -ing",
+   "ex": "taking / having"
+  },
+  {
+   "id": "pc-g-mettere",
+   "deck": "ger",
+   "it": "mettendo",
+   "en": "mettere → -ing",
+   "ex": "putting"
+  },
+  {
+   "id": "pc-g-vedere",
+   "deck": "ger",
+   "it": "vedendo",
+   "en": "vedere → -ing",
+   "ex": "seeing"
+  },
+  {
+   "id": "pc-g-chiedere",
+   "deck": "ger",
+   "it": "chiedendo",
+   "en": "chiedere → -ing",
+   "ex": "asking"
+  },
+  {
+   "id": "pc-g-scegliere",
+   "deck": "ger",
+   "it": "scegliendo",
+   "en": "scegliere → -ing",
+   "ex": "choosing",
+   "note": "Irregular in the present (scelgo), but regular here."
+  },
+  {
+   "id": "pc-g-venire",
+   "deck": "ger",
+   "it": "venendo",
+   "en": "venire → -ing",
+   "ex": "coming",
+   "note": "Irregular in the present (vengo), but regular here."
+  },
+  {
+   "id": "pc-g-sentire",
+   "deck": "ger",
+   "it": "sentendo",
+   "en": "sentire → -ing",
+   "ex": "hearing / feeling"
+  },
+  {
+   "id": "pc-g-aprire",
+   "deck": "ger",
+   "it": "aprendo",
+   "en": "aprire → -ing",
+   "ex": "opening"
+  },
+  {
+   "id": "pc-g-partire",
+   "deck": "ger",
+   "it": "partendo",
+   "en": "partire → -ing",
+   "ex": "leaving"
+  },
+  {
+   "id": "pc-g-servire",
+   "deck": "ger",
+   "it": "servendo",
+   "en": "servire → -ing",
+   "ex": "serving"
+  },
+  {
+   "id": "pc-g-capire",
+   "deck": "ger",
+   "it": "capendo",
+   "en": "capire → -ing",
+   "ex": "understanding",
+   "note": "-isc- verbs drop the -isc-: capisco, but capendo."
+  },
+  {
+   "id": "pc-g-preferire",
+   "deck": "ger",
+   "it": "preferendo",
+   "en": "preferire → -ing",
+   "ex": "preferring",
+   "note": "-isc- verbs drop the -isc-: preferisco, but preferendo."
+  },
+  {
+   "id": "nl-watch-now",
+   "deck": "now",
+   "q": "I'm watching TV (right now).",
+   "a": "Sto guardando la televisione."
+  },
+  {
+   "id": "nl-watch-later",
+   "deck": "now",
+   "q": "I'm watching the game tonight.",
+   "a": "Stasera guardo la partita.",
+   "note": "Tonight is the near future, so plain present."
+  },
+  {
+   "id": "nl-doing",
+   "deck": "now",
+   "q": "What are you doing? (tu) I'm cooking.",
+   "a": "Cosa stai facendo? Sto cucinando."
+  },
+  {
+   "id": "nl-dinner-tmrw",
+   "deck": "now",
+   "q": "Tomorrow we're having dinner at eight.",
+   "a": "Domani ceniamo alle otto.",
+   "note": "A plan, not happening now: present tense."
+  },
+  {
+   "id": "nl-menu",
+   "deck": "now",
+   "q": "She's reading the menu.",
+   "a": "Sta leggendo il menù."
+  },
+  {
+   "id": "nl-ordering",
+   "deck": "now",
+   "q": "They're ordering now.",
+   "a": "Stanno ordinando adesso."
+  },
+  {
+   "id": "nl-saturday",
+   "deck": "now",
+   "q": "We're leaving for Rome on Saturday.",
+   "a": "Sabato partiamo per Roma.",
+   "note": "Saturday is coming up, so present: partiamo."
+  },
+  {
+   "id": "nl-looking",
+   "deck": "now",
+   "q": "Are you looking for something? (formal, to a customer)",
+   "a": "Sta cercando qualcosa?",
+   "note": "Lei takes sta, the same form as lui / lei."
+  },
+  {
+   "id": "nl-thinking",
+   "deck": "now",
+   "q": "I'm thinking…",
+   "a": "Sto pensando…"
+  },
+  {
+   "id": "nl-waiter",
+   "deck": "now",
+   "q": "The waiter is bringing the wine.",
+   "a": "Il cameriere sta portando il vino."
+  },
+  {
+   "id": "nl-liking1",
+   "deck": "now",
+   "q": "I'm really liking this restaurant.",
+   "a": "Questo ristorante mi sta piacendo molto.",
+   "g": "or: Mi sta piacendo molto questo ristorante.",
+   "note": "With piacere the verb agrees with the thing you like: one thing → sta."
+  },
+  {
+   "id": "nl-liking2",
+   "deck": "now",
+   "q": "I'm liking the tortellini.",
+   "a": "Mi stanno piacendo i tortellini.",
+   "note": "Tortellini is plural → stanno."
+  },
+  {
+   "id": "nl-saying",
+   "deck": "now",
+   "q": "What are you all saying?",
+   "a": "Cosa state dicendo?"
+  },
+  {
+   "id": "nl-espresso",
+   "deck": "now",
+   "q": "He's drinking an espresso.",
+   "a": "Sta bevendo un espresso."
+  },
+  {
+   "id": "nl-call-later",
+   "deck": "now",
+   "q": "I'll call the restaurant later.",
+   "a": "Chiamo il ristorante più tardi.",
+   "note": "Later → plain present, even though English might say 'I'm calling'."
+  },
+  {
+   "id": "nl-booking",
+   "deck": "now",
+   "q": "We're booking a table for tonight (on the phone right now).",
+   "a": "Stiamo prenotando un tavolo per stasera.",
+   "note": "The booking is happening now, even though dinner is later."
+  },
+  {
+   "id": "nl-photos",
+   "deck": "now",
+   "q": "They're taking pictures.",
+   "a": "Stanno facendo delle foto.",
+   "note": "Take a picture = fare una foto."
+  },
+  {
+   "id": "nl-raining",
+   "deck": "now",
+   "q": "Is it raining?",
+   "a": "Sta piovendo?"
+  },
+  {
+   "id": "nl-tasting",
+   "deck": "now",
+   "q": "We're tasting the house wine.",
+   "a": "Stiamo assaggiando il vino della casa."
+  },
+  {
+   "id": "nl-tomorrow-eat",
+   "deck": "now",
+   "q": "Where are we eating tomorrow?",
+   "a": "Dove mangiamo domani?",
+   "note": "Tomorrow → present."
+  },
+  {
+   "id": "rw-antipasto",
+   "deck": "men",
+   "it": "l'antipasto",
+   "en": "appetizer",
+   "ex": "Gli <b>antipasti</b> possono essere freddi o caldi.",
+   "note": "Salad is never an antipasto."
+  },
+  {
+   "id": "rw-primo",
+   "deck": "men",
+   "it": "il primo (piatto)",
+   "en": "first course: pasta, risotto, soup, gnocchi",
+   "ex": "Come <b>primo</b> prendo gli gnocchi."
+  },
+  {
+   "id": "rw-secondo",
+   "deck": "men",
+   "it": "il secondo (piatto)",
+   "en": "main course: meat, fish, poultry"
+  },
+  {
+   "id": "rw-contorno",
+   "deck": "men",
+   "it": "il contorno",
+   "en": "side dish",
+   "ex": "Il <b>contorno</b> arriva su un piatto separato.",
+   "note": "Salads are contorni."
+  },
+  {
+   "id": "rw-dolce",
+   "deck": "men",
+   "it": "il dolce",
+   "en": "dessert",
+   "note": "Also the adjective 'sweet'."
+  },
+  {
+   "id": "rw-bevande",
+   "deck": "men",
+   "it": "le bevande",
+   "en": "drinks"
+  },
+  {
+   "id": "rw-digestivo",
+   "deck": "men",
+   "it": "il digestivo",
+   "en": "after-dinner liqueur (limoncello, grappa, amaro)"
+  },
+  {
+   "id": "rw-menu",
+   "deck": "men",
+   "it": "il menù",
+   "en": "menu",
+   "note": "Also la carta. Wine list: la carta dei vini."
+  },
+  {
+   "id": "rw-menu-giorno",
+   "deck": "men",
+   "it": "il menù del giorno",
+   "en": "today's menu"
+  },
+  {
+   "id": "rw-piatto-giorno",
+   "deck": "men",
+   "it": "il piatto del giorno",
+   "en": "the special (dish of the day)"
+  },
+  {
+   "id": "rw-tavolo",
+   "deck": "men",
+   "it": "il tavolo",
+   "en": "table (in a restaurant)",
+   "ex": "Un <b>tavolo</b> per due, per favore.",
+   "note": "La tavola is the table set for a meal: A tavola! = Dinner's ready!"
+  },
+  {
+   "id": "rw-aperto",
+   "deck": "men",
+   "it": "all'aperto",
+   "en": "outdoors / outside",
+   "ex": "Mangiamo <b>all'aperto</b>?"
+  },
+  {
+   "id": "rw-dentro",
+   "deck": "men",
+   "it": "dentro",
+   "en": "inside"
+  },
+  {
+   "id": "rw-prenotazione",
+   "deck": "men",
+   "it": "la prenotazione",
+   "en": "reservation"
+  },
+  {
+   "id": "rw-prenotare",
+   "deck": "men",
+   "it": "prenotare",
+   "en": "to book / reserve"
+  },
+  {
+   "id": "rw-ordinare",
+   "deck": "men",
+   "it": "ordinare",
+   "en": "to order"
+  },
+  {
+   "id": "rw-cameriere",
+   "deck": "men",
+   "it": "il cameriere / la cameriera",
+   "en": "waiter / waitress"
+  },
+  {
+   "id": "rw-conto",
+   "deck": "men",
+   "it": "il conto",
+   "en": "the check / bill",
+   "note": "Ask for it; it won't come on its own."
+  },
+  {
+   "id": "rw-mancia",
+   "deck": "men",
+   "it": "la mancia",
+   "en": "tip",
+   "note": "Plural: le mance."
+  },
+  {
+   "id": "rw-coperto",
+   "deck": "men",
+   "it": "il coperto",
+   "en": "cover charge (per person, for bread and the setting)"
+  },
+  {
+   "id": "rw-resto",
+   "deck": "men",
+   "it": "il resto",
+   "en": "change (money back)"
+  },
+  {
+   "id": "rw-frizzante",
+   "deck": "men",
+   "it": "acqua frizzante",
+   "en": "sparkling water",
+   "note": "Also acqua gassata."
+  },
+  {
+   "id": "rw-naturale",
+   "deck": "men",
+   "it": "acqua naturale",
+   "en": "still water"
+  },
+  {
+   "id": "rw-casa",
+   "deck": "men",
+   "it": "il vino della casa",
+   "en": "house wine"
+  },
+  {
+   "id": "rw-mezzo-litro",
+   "deck": "men",
+   "it": "mezzo litro",
+   "en": "half a liter",
+   "ex": "<b>Mezzo litro</b> di rosso della casa.",
+   "note": "No article before mezzo here."
+  },
+  {
+   "id": "rw-quarto",
+   "deck": "men",
+   "it": "un quarto (di vino)",
+   "en": "a quarter liter (of wine)"
+  },
+  {
+   "id": "rw-bicchiere",
+   "deck": "men",
+   "it": "il bicchiere",
+   "en": "glass",
+   "note": "Plural: i bicchieri."
+  },
+  {
+   "id": "rw-bottiglia",
+   "deck": "men",
+   "it": "la bottiglia",
+   "en": "bottle"
+  },
+  {
+   "id": "rw-crudo",
+   "deck": "men",
+   "it": "crudo",
+   "en": "raw",
+   "ex": "Verdure <b>crude</b>."
+  },
+  {
+   "id": "rw-cotto",
+   "deck": "men",
+   "it": "cotto",
+   "en": "cooked"
+  },
+  {
+   "id": "rw-grigliato",
+   "deck": "men",
+   "it": "grigliato / alla griglia",
+   "en": "grilled"
+  },
+  {
+   "id": "rw-freddo-caldo",
+   "deck": "men",
+   "it": "freddo / caldo",
+   "en": "cold / hot"
+  },
+  {
+   "id": "rw-insalata",
+   "deck": "men",
+   "it": "l'insalata mista",
+   "en": "mixed salad"
+  },
+  {
+   "id": "rw-ragu",
+   "deck": "men",
+   "it": "al ragù",
+   "en": "with meat sauce",
+   "ex": "Tortellini <b>al ragù</b>."
+  },
+  {
+   "id": "rw-ai-gamberi",
+   "deck": "men",
+   "it": "ai gamberi",
+   "en": "with shrimp",
+   "ex": "Tagliatelle <b>ai gamberi</b>.",
+   "note": "a + i → ai: 'with' in dish names."
+  },
+  {
+   "id": "rw-romana",
+   "deck": "men",
+   "it": "alla romana",
+   "en": "Roman style",
+   "note": "Alla + a place: done the way they do it there."
+  },
+  {
+   "id": "rw-sorbetto",
+   "deck": "men",
+   "it": "il sorbetto",
+   "en": "sorbet"
+  },
+  {
+   "id": "rw-panna-cotta",
+   "deck": "men",
+   "it": "la panna cotta",
+   "en": "cooked cream dessert"
+  },
+  {
+   "id": "rw-buonissimo",
+   "deck": "men",
+   "it": "buonissimo",
+   "en": "really good / delicious",
+   "ex": "I tortellini sono <b>buonissimi</b>!",
+   "note": "Agrees: buonissimo, buonissima, buonissimi, buonissime."
+  },
+  {
+   "id": "rw-scelta",
+   "deck": "men",
+   "it": "la scelta",
+   "en": "choice",
+   "ex": "Ci sono tante <b>scelte</b>."
+  },
+  {
+   "id": "rw-ancora-no",
+   "deck": "men",
+   "it": "ancora no",
+   "en": "not yet"
+  },
+  {
+   "id": "rw-invece",
+   "deck": "men",
+   "it": "invece",
+   "en": "instead / on the other hand",
+   "ex": "Io <b>invece</b> prendo il pesce."
+  },
+  {
+   "id": "rw-tutti-e-due",
+   "deck": "men",
+   "it": "tutti e due / tutte e due",
+   "en": "both (of us / them)",
+   "note": "Tutte e due for two women."
+  },
+  {
+   "id": "rw-con-calma",
+   "deck": "men",
+   "it": "con calma",
+   "en": "take your time / no rush"
+  },
+  {
+   "id": "rw-colazione",
+   "deck": "men",
+   "it": "la colazione",
+   "en": "breakfast"
+  },
+  {
+   "id": "rw-pranzo",
+   "deck": "men",
+   "it": "il pranzo",
+   "en": "lunch"
+  },
+  {
+   "id": "rw-cena",
+   "deck": "men",
+   "it": "la cena",
+   "en": "dinner"
+  },
+  {
+   "id": "rw-cornetto",
+   "deck": "men",
+   "it": "il cornetto",
+   "en": "Italian croissant"
+  },
+  {
+   "id": "rw-dieta",
+   "deck": "men",
+   "it": "essere a dieta",
+   "en": "to be on a diet",
+   "ex": "<b>Sono a dieta</b>.",
+   "note": "The dialogue's fare una dieta also works."
+  },
+  {
+   "id": "rp-booked",
+   "deck": "phr",
+   "q": "We have a reservation for eight o'clock.",
+   "a": "Abbiamo una prenotazione per le otto.",
+   "g": "or: Abbiamo prenotato per le otto."
+  },
+  {
+   "id": "rp-book",
+   "deck": "phr",
+   "q": "I'd like to book a table for four for tomorrow evening.",
+   "a": "Vorrei prenotare un tavolo per quattro per domani sera."
+  },
+  {
+   "id": "rp-inside",
+   "deck": "phr",
+   "q": "Is there a table inside?",
+   "a": "C'è un tavolo dentro?",
+   "g": "or: Avete un tavolo all'interno?"
+  },
+  {
+   "id": "rp-primo",
+   "deck": "phr",
+   "q": "For my first course I'll have the risotto.",
+   "a": "Come primo prendo il risotto.",
+   "note": "Prendo = I'll have. Present tense for an order."
+  },
+  {
+   "id": "rp-for-me",
+   "deck": "phr",
+   "q": "For me, the fish, please.",
+   "a": "Per me il pesce, per favore."
+  },
+  {
+   "id": "rp-whats-in",
+   "deck": "phr",
+   "q": "What's in the lasagna?",
+   "a": "Cosa c'è nelle lasagne?",
+   "note": "Italians say le lasagne (plural)."
+  },
+  {
+   "id": "rp-allergic",
+   "deck": "phr",
+   "q": "I'm allergic to nuts.",
+   "a": "Sono allergico alle noci.",
+   "g": "A woman says: Sono allergica."
+  },
+  {
+   "id": "rp-vegetarian",
+   "deck": "phr",
+   "q": "I'm vegetarian.",
+   "a": "Sono vegetariano.",
+   "g": "A woman says: Sono vegetariana."
+  },
+  {
+   "id": "rp-spicy",
+   "deck": "phr",
+   "q": "Is it spicy?",
+   "a": "È piccante?"
+  },
+  {
+   "id": "rp-ice",
+   "deck": "phr",
+   "q": "Without ice, please.",
+   "a": "Senza ghiaccio, per favore."
+  },
+  {
+   "id": "rp-still-spark",
+   "deck": "phr",
+   "q": "Still or sparkling?",
+   "a": "Naturale o frizzante?",
+   "note": "The first thing the waiter will ask about water."
+  },
+  {
+   "id": "rp-quarter-white",
+   "deck": "phr",
+   "q": "A quarter liter of house white wine.",
+   "a": "Un quarto di vino bianco della casa."
+  },
+  {
+   "id": "rp-another-glass",
+   "deck": "phr",
+   "q": "Another glass, please.",
+   "a": "Un altro bicchiere, per favore."
+  },
+  {
+   "id": "rp-kitchen",
+   "deck": "phr",
+   "q": "Is the kitchen still open?",
+   "a": "La cucina è ancora aperta?"
+  },
+  {
+   "id": "rp-bathroom",
+   "deck": "phr",
+   "q": "Where is the restroom?",
+   "a": "Dov'è il bagno?"
+  },
+  {
+   "id": "rp-enough",
+   "deck": "phr",
+   "q": "No thanks, that's enough for me.",
+   "a": "No grazie, basta così."
+  },
+  {
+   "id": "rp-two-coffee",
+   "deck": "phr",
+   "q": "Two coffees, please.",
+   "a": "Due caffè, per favore.",
+   "note": "Caffè doesn't change in the plural."
+  },
+  {
+   "id": "rp-card",
+   "deck": "phr",
+   "q": "Can I pay by card?",
+   "a": "Posso pagare con la carta?",
+   "note": "Keep cash for tips anyway."
+  },
+  {
+   "id": "rp-separately",
+   "deck": "phr",
+   "q": "Can we pay separately?",
+   "a": "Possiamo pagare separatamente?"
+  },
+  {
+   "id": "rp-coperto",
+   "deck": "phr",
+   "q": "Is the cover charge included?",
+   "a": "Il coperto è incluso?"
+  },
+  {
+   "id": "rp-keep-change",
+   "deck": "phr",
+   "q": "Keep the change. (formal)",
+   "a": "Tenga il resto.",
+   "note": "Tieni il resto is the tu form, which is what Leo says in the dialogue."
+  },
+  {
+   "id": "rp-appetito",
+   "deck": "phr",
+   "q": "Enjoy your meal!",
+   "a": "Buon appetito!"
+  },
+  {
+   "id": "rp-cheers",
+   "deck": "phr",
+   "q": "Cheers!",
+   "a": "Salute!",
+   "g": "or: Cin cin!",
+   "note": "Clink glasses as you say it."
+  },
+  {
+   "id": "rp-chef",
+   "deck": "phr",
+   "q": "My compliments to the chef!",
+   "a": "I miei complimenti allo chef!"
+  },
+  {
+   "id": "rp-everything-good",
+   "deck": "phr",
+   "q": "Everything was excellent, thank you.",
+   "a": "Era tutto ottimo, grazie.",
+   "note": "Era is past tense (Level 3), but worth knowing as a set phrase."
+  },
+  {
+   "id": "cu-courses",
+   "deck": "cus",
+   "q": "Name the courses in order.",
+   "a": "Antipasto, primo, secondo with contorno, dolce, then caffè and a digestivo.",
+   "note": "Casual dinners often skip some."
+  },
+  {
+   "id": "cu-cappuccino",
+   "deck": "cus",
+   "q": "Cappuccino after dinner?",
+   "a": "No. Cappuccino is a morning drink, not after about 11 AM."
+  },
+  {
+   "id": "cu-dinner-time",
+   "deck": "cus",
+   "q": "When does dinner usually start?",
+   "a": "Between 7:30 and 8:30 PM, and it can last hours.",
+   "note": "Many restaurants close from 3 to 7 PM."
+  },
+  {
+   "id": "cu-lunch",
+   "deck": "cus",
+   "q": "Lunch?",
+   "a": "Never skipped. Usually between noon and 1:30 PM."
+  },
+  {
+   "id": "cu-check",
+   "deck": "cus",
+   "q": "Will the waiter bring the check on his own?",
+   "a": "No. You have to ask for it.",
+   "note": "Restaurants don't rush to turn tables."
+  },
+  {
+   "id": "cu-coperto",
+   "deck": "cus",
+   "q": "What is il coperto?",
+   "a": "A small charge per person for taking a table."
+  },
+  {
+   "id": "cu-tip",
+   "deck": "cus",
+   "q": "Is a tip expected?",
+   "a": "Not required. For great service, 3 to 5 euro in cash, never more than 10%.",
+   "note": "At a coffee bar, 10 to 20 cents is enough."
+  },
+  {
+   "id": "cu-water",
+   "deck": "cus",
+   "q": "Water at a restaurant?",
+   "a": "Naturale o frizzante, in a bottle, no ice unless you ask."
+  },
+  {
+   "id": "cu-drinks",
+   "deck": "cus",
+   "q": "Cocktails, juice or milk with dinner?",
+   "a": "No. Wine, beer, soft drinks or water."
+  },
+  {
+   "id": "cu-salad",
+   "deck": "cus",
+   "q": "Is salad an antipasto?",
+   "a": "No. It's a contorno, served on its own plate."
+  },
+  {
+   "id": "cu-bread",
+   "deck": "cus",
+   "q": "When does the bread come?",
+   "a": "With the antipasti or the secondi."
+  },
+  {
+   "id": "cu-spaghetti",
+   "deck": "cus",
+   "q": "Can you cut your spaghetti?",
+   "a": "No!",
+   "note": "Twirl it on the fork."
+  },
+  {
+   "id": "cu-not-italian",
+   "deck": "cus",
+   "q": "Order spaghetti and meatballs or fettuccine Alfredo?",
+   "a": "Better not. They aren't really Italian dishes."
+  },
+  {
+   "id": "cu-espresso",
+   "deck": "cus",
+   "q": "Espresso at the bar: sit or stand?",
+   "a": "Stand at the counter. Sit only if you're meeting someone.",
+   "note": "In real life, table service often costs more than the counter."
+  },
+  {
+   "id": "cu-say",
+   "deck": "cus",
+   "q": "What do you say before eating, and before drinking?",
+   "a": "Buon appetito! and Salute! or Cin cin!"
+  },
+  {
+   "id": "cu-visit",
+   "deck": "cus",
+   "q": "Invited to stay for lunch at an Italian home?",
+   "a": "Accept!"
+  },
+  {
+   "id": "cu-christmas",
+   "deck": "cus",
+   "q": "How long is Christmas (Natale) celebrated?",
+   "a": "Three days, December 24 to 26.",
+   "note": "Christmas Eve dinner is often several fish dishes."
+  },
+  {
+   "id": "cu-desserts",
+   "deck": "cus",
+   "q": "Two Christmas sweet breads?",
+   "a": "Panettone and pandoro."
+  },
+  {
+   "id": "cu-ferragosto",
+   "deck": "cus",
+   "q": "What is Ferragosto?",
+   "a": "August 15, the summer holiday. Many places close for a week."
+  },
+  {
+   "id": "cu-birthday",
+   "deck": "cus",
+   "q": "Birthday wishes a day early?",
+   "a": "Never before the day."
+  },
+  {
+   "id": "cu-gesture",
+   "deck": "cus",
+   "q": "Gestures that say the food is great?",
+   "a": "Kiss your fingertips, or twist a finger into your cheek."
+  }
+ ],
+ "refs": [
+  {
+   "title": "Present continuous: stare + -ando / -endo",
+   "html": "<div class=\"tblwrap\"><table class=\"ref\">\n<thead><tr><th></th><th>stare</th><th>-are → -ando</th><th>-ere → -endo</th><th>-ire → -endo</th></tr></thead>\n<tbody>\n<tr><td class=\"k\">io</td><td>sto</td><td>cucinando</td><td>leggendo</td><td>dormendo</td></tr>\n<tr><td class=\"k\">tu</td><td>stai</td><td>cucinando</td><td>leggendo</td><td>dormendo</td></tr>\n<tr><td class=\"k\">lui / lei / Lei</td><td>sta</td><td>cucinando</td><td>leggendo</td><td>dormendo</td></tr>\n<tr><td class=\"k\">noi</td><td>stiamo</td><td>cucinando</td><td>leggendo</td><td>dormendo</td></tr>\n<tr><td class=\"k\">voi</td><td>state</td><td>cucinando</td><td>leggendo</td><td>dormendo</td></tr>\n<tr><td class=\"k\">loro</td><td>stanno</td><td>cucinando</td><td>leggendo</td><td>dormendo</td></tr>\n</tbody></table></div>\n<p class=\"reftip\">Only stare changes. The -ando / -endo word stays the same for everyone.</p>\n<h3 class=\"refh\">The three odd ones</h3>\n<p class=\"reftip\"><b>fare</b> → facendo · <b>bere</b> → bevendo · <b>dire</b> → dicendo<br>Most other irregulars are regular here: andando, uscendo, venendo, scegliendo. -isc- verbs drop the -isc-: capendo, finendo.</p>\n<h3 class=\"refh\">Now, or later?</h3>\n<p class=\"reftip\"><b>Happening right now</b> (or ongoing for a while): stare + -ando / -endo. <i>Sto mangiando.</i><br><b>Later today, tonight, tomorrow</b>: plain present. <i>Mangio più tardi.</i> English says \"I'm eating later\", Italian doesn't.<br>With <b>piacere</b>, stare agrees with what you like: mi <b>sta</b> piacendo il vino, mi <b>stanno</b> piacendo i tortellini.</p>"
+  },
+  {
+   "title": "The courses",
+   "html": "<div class=\"tblwrap\"><table class=\"ref\">\n<thead><tr><th>Course</th><th>What it is</th></tr></thead>\n<tbody>\n<tr><td class=\"k\">antipasti</td><td>appetizers, freddi or caldi. Not salad.</td></tr>\n<tr><td class=\"k\">primi</td><td>pasta, risotto, soup, polenta, gnocchi</td></tr>\n<tr><td class=\"k\">secondi</td><td>meat, fish or poultry</td></tr>\n<tr><td class=\"k\">contorni</td><td>sides: crudi, cotti, grigliati. Salad goes here.</td></tr>\n<tr><td class=\"k\">dolci</td><td>tiramisù, gelato, sorbetto, panna cotta</td></tr>\n<tr><td class=\"k\">bevande</td><td>vino, espresso, digestivo (limoncello, grappa, amaro)</td></tr>\n</tbody></table></div>"
+  },
+  {
+   "title": "Notes on the handouts",
+   "html": "<p class=\"reftip\"><b>Formal with the waiter.</b> In the dialogue Maria asks the waitress <i>Cosa ci consigli?</i> and Leo says <i>tieni il resto</i>. Both are tu. With a server, use Lei: <b>Cosa ci consiglia?</b> and <b>Tenga il resto</b>. Leo's <i>Ci porti…</i> is already the correct formal form.</p>\n<p class=\"reftip\"><b>Sì needs its accent.</b> The dialogue writes <i>Si</i> for yes several times. Yes is <b>sì</b>; si without an accent is a pronoun.</p>\n<p class=\"reftip\"><b>gli zuccheri, not i zuccheri.</b> Words starting with z take lo / gli.</p>\n<p class=\"reftip\"><b>Saltimbocca alla romana</b> is already veal, so \"il vitello al saltimbocca\" is redundant. On a menu: <i>saltimbocca alla romana</i>.</p>\n<p class=\"reftip\"><b>dell'insalata mista</b> means \"some mixed salad\", not \"the\".</p>\n<p class=\"reftip\"><b>Handout 1.1 example.</b> <i>Stasera stiamo bevendo per festeggiare</i> breaks the handout's own rule: for tonight, plain present (<i>Stasera beviamo…</i>) unless you're drinking as you say it.</p>\n<p class=\"reftip\"><b>Exercise 1</b> says <i>di fronte la televisione</i>; it should be <b>di fronte alla</b> televisione.</p>\n<p class=\"reftip\"><b>Customs handout:</b> fettuccine (not fettuccini); \"an antipasto\" (singular). <b>Menu:</b> tiramisù takes an accent.</p>\n<p class=\"reftip\"><b>Table:</b> in a restaurant ask for <b>un tavolo</b>. La tavola is the table set for a meal.</p>\n<p class=\"reftip\">The Present Continuous Exercises and your ten Simulation sentences are left off these cards on purpose: they're yours to write. Bring them and we'll role-play the restaurant.</p>"
+  }
+ ]
+}
